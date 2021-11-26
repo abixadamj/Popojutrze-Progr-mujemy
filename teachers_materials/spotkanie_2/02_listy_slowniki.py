@@ -34,7 +34,7 @@ print("---[SŁOWNIK / dict]-----------------------------------------------------
 # definiujemy słownik - kolekcję elementów o strukturze klucz:wartość
 # które nie muszą zachowywać kolejności
 addressbook = {
-    "Prezydent": "Doda Andrzej",
+    "Prezydent": "Duda Andrzej",
     "Żona Prezydenta": "Kornhauser-Duda Agata",
     "Marszałek Sejmu": "Witek Elżbieta",
     "Wce - Lewica": "Czarzasty Włodzimierz",
