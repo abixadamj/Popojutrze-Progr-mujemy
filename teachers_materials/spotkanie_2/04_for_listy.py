@@ -1,3 +1,4 @@
+# lista zdefiniowana w kodzie
 planes = [
     "Boeing 737-300",
     "Airbus A320",
@@ -10,7 +11,7 @@ planes = [
 ]
 
 print(f"Pełna lista: {planes}")
-
+print("#" * 30)
 print("---[Pętla iteracyjna for .. in _kolekcja_ ...]------")
 # pętla iteracyjna - wykonuje się tyle razy, ile elementów posiada kolekcja
 for plane in planes:
@@ -20,12 +21,20 @@ for plane in planes:
     print(f"Czy to jest Boeing? -> {'Boeing' in plane}")
     print(f"Czy instnieje Boeing 747 Jumbo Jet? -> {'Boeing 747 Jumbo Jet' in plane}")
 
-print("---[Pętla warunkowa while _warunek_ ...]------")
-# pętla warunkowa - wykonuje się tak długo, jak długo warunek jest prawdziwy
-# w naszym wypadku element listy inny niż "Boeing 747 Jumbo Jet"
-indeks = 0
-while planes[indeks] != "Boeing 747 Jumbo Jet":
-    print(f"Szukamy samolotu Boeing 747 Jumbo Jet, a w liście jest: {planes[indeks]} / indeks = {indeks}")
-    # zwiększamy indeks
-    indeks += 1
-print(f"Znaleźliśmy {planes[indeks]} / indeks = {indeks}")
+#####################################################
+# lista pobrana jako wynik funkcji
+import urllib.request as ureq
+
+address = "https://abixedukacja.eu"
+https_request = ureq.urlopen(address)
+headers = https_request.headers.items()
+print("#" * 30)
+# standardowe wywołanie pętli for
+for each_header in headers:
+    print(f"Header of web page {address} is: {each_header}")
+
+print("#" * 30)
+# dla zainteresowanych - wykorzystanie funkcji enumerate()
+for counter, each_header in enumerate(headers):
+    print(f"Header number {counter} is: {each_header}")
+

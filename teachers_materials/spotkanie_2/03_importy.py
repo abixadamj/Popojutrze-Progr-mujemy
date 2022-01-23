@@ -1,16 +1,23 @@
-import urllib.request
+# urllib - kolekcja bibliotek: https://docs.python.org/3.8/library/urllib.html#module-urllib
+# importujemy i nazywamy naszą nazwą
+import urllib.request as ureq
 
-https = "https://abixedukacja.eu"
-http_request = urllib.request.urlopen(https)
+# definiujemy adres internetowy, do którego będziemy się łączyć
+address = "https://abixedukacja.eu"
+# i wykonujemy połączenie
+https_request = ureq.urlopen(address)
 
-headers = http_request.headers.items()
-print(f"Headers of web page: {headers}")
+# pobieramy headers, czyli nagłówki strony WWW
+headers = https_request.headers.items()
+# i wyświetlamy je
+print(f"Headers of web page {address} are: {headers}")
 
-# inny sposób importowania
+# inne sposoby importowania
 from random import randint, random
 from time import sleep
 from turtle import *
 
+# używamy zaimportowanych funkcji
 print(f"Całkowita liczba pseudolosowa z zakresu -100 do 100: {randint(-100,100)}")
 print(f"Pseudolosowa wartość z zakresu [0,1): {random()}")
 
@@ -28,5 +35,7 @@ left(90)
 color("blue")
 forward(100)
 
-# wstrzymujemy na 10 sekund
-sleep(10)
+# wstrzymujemy na 10 sekund wykonywanie programu
+seconds = 10
+print(f"Sleeping execution for {seconds} seconds...")
+sleep(seconds)

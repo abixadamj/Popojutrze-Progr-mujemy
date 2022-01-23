@@ -1,4 +1,5 @@
 # definiujemy listę - kolekcję elementów, które zachowują kolejność wprowadzania
+# definicja listy: https://docs.python.org/3.8/library/stdtypes.html#sequence-types-list-tuple-range
 print("---[LISTA / list]-------------------------------------------------------")
 planes = [
     "Boeing 737-300",
@@ -11,17 +12,19 @@ planes = [
     "Bombardier CRJ-900",
 ]
 
-# odwołujemy się do poszczególnych elementów
 print(f"Pełna lista: {planes}")
+# odwołujemy się do poszczególnych elementów
 print(planes[0])
 print(planes[3])
 print(planes[5])
 print(planes[-1])  # ostatni - liczymy indeksy ujemnie
 
-# sprawdzamy ilość elementów
+# sprawdzamy ilość elementów - funkcja len()
+# dokumentacja do funkcji: https://docs.python.org/3.8/library/functions.html?highlight=len#len
 print(len(planes))
 
-# sprawdzamy czy element istnieje w liście
+# sprawdzamy czy element istnieje w liście - operator `in`
+# dokumentacja: https://docs.python.org/3.8/library/stdtypes.html?highlight=comparisons
 print("Boeing 777-300ER" in planes)
 print("Bombardier Dash 8" in planes)
 
