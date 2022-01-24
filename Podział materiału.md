@@ -84,12 +84,20 @@ Przed rozpoczęciem zajęć na wszystkich komputerach należy zainstalować **Vi
 2. Przygotowujemy środowisko `venv` dla lokalnego projektu
 3. Plik `requirements.txt` - zewnętrzne moduły, własne pliki `py` w projekcie 
 4. Minimalny program z wykorzystaniem PySimpleGUI
+5. Skąd będziemy czerpać grafiki? Pixabay i Freeicon.
+6. Uruchamiamy edytor tekstów - format strony.
+7. Uruchamiamy edytor grafiki - otwieramy przykładowy plik graficzny.
+8. Uruchamiamy edytor HTML - podstawowa strona z szablonu.
+9. Edytor HTML: Bootstrap - https://getbootstrap.com/ 
 
 #### Praca samodzielna (1):
 
 1. VirtualBox w Windows i jak importować maszynę `OVA` - aby pracować niezależnie od szkoły
 2. PySimpleGui - dokumentacja, przykłady użycia
-3. podstawy doc/graf/html
+3. Edytor teskstów: nagłówek i stopka
+4. Edytor teskstów: style i spis treści
+5. Edytor grafiki: zmiana rozmiaru i zapis XCF
+6. Edytor HTML:  różne znaczniki `meta` 
 
 #### Lekcja w szkole (2):
 
@@ -98,19 +106,26 @@ Przed rozpoczęciem zajęć na wszystkich komputerach należy zainstalować **Vi
 3. Importowanie z zewnętrznych modułów 
 4. Pętla `for` i listy
 5. Instrukcja warunkowa `if ... else ...` 
-6. podstawy doc/graf/html
+6. Edytor teskstów: listy numerowane i nienumerowane 
+7. Edytor grafiki: warstwy i dodanie elementu
+8. Edytor HTML: containers i columns
+
 
 #### Praca samodzielna (2):
 
-1. PySimpleGui - tworzymy prosty program okienkowy - 1 (layout, listy)
+1. Wyświetlamy informację - 1 (text)
 2. Rozpakowywanie tupli - pythonizm.
-3. Poznajemy sterowanie - 1 (window.read())
-4. Wyświetlamy informację - 1 (text)
-5. Dodajemy elementy przycisków - 1 (button)
-6. Dodajemy wyświetlanie obrazków - 1 (Image)
-7. Poznajemy sposoby wprowadzania danych - 1 (input)
-8. Wyświtlanie większej ilości danych (output)
-9. Pętla `while True` - dla sterowania programem PySimpleGUI
+3. Pętla `while True` - sterowanie programem PySimpleGUI
+4. Dodajemy elementy przycisków - 1 (button)
+5. Dodajemy wyświetlanie obrazków - 1 (Image)
+6. Poznajemy sposoby wprowadzania danych - 1 (input)
+7. Poznajemy sterowanie - 1 (window.read())
+8. PySimpleGui - tworzymy prosty program okienkowy - 1 (layout, listy)
+9. Wyświetlanie większej ilości danych (output)
+10. Edytor teskstów: zrzut zawartości okna aplikacji i dodanie do tekstu
+11. Edytor grafiki: warstwy i dodanie tekstu. 
+12. Edytor HTML: różne elementy na stronie (headings, display, obrazy, listy).
+
 
 #### Lekcja w szkole (3):
 
@@ -120,7 +135,10 @@ Przed rozpoczęciem zajęć na wszystkich komputerach należy zainstalować **Vi
 4. Użycie pętli `for` dla pokazania elementów słownika z serwisu https://fastapi.jurkiewicz.tech/ - i dodatkowo pokazujemy IP klienta
 5. Listy jako elementy słowników - 1
 6. Słowniki jako elementy słowników - 1
-7. podstawy doc/graf/html
+7. Edytor teskstów: eksport dokumentu do formatu PDF
+8. Edytor grafiki: eksport obrazu jako PNG 
+9. Edytor HTML: różne elementy na stronie (address, listy, user input, sample output). 
+
 
 #### Praca samodzielna (3):
 
@@ -137,7 +155,8 @@ Przed rozpoczęciem zajęć na wszystkich komputerach należy zainstalować **Vi
    1. https://aviationstack.com/documentation
    2. https://numverify.com/documentation
    3. https://wttr.in/:help
-5. podstawy doc/graf/html
+5. Przygotowanie dokumentacji i strony w HTML
+
 
 #### Praca samodzielna (4):
 
@@ -157,4 +176,4 @@ Przed rozpoczęciem zajęć na wszystkich komputerach należy zainstalować **Vi
 
 1. Tworzenie pełnej aplikacji
 2. Tworzenie docelowego interfejsu aplikacji
-3. Przygotowanie końcowe dokumentacji w LibreOffice Writer i strony w HTML
+3. Przygotowanie końcowe dokumentacji i strony w HTML

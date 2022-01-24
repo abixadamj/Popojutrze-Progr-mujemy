@@ -1,0 +1,1 @@
+#output - wyświetlanie większej ilości informacji na ekranie

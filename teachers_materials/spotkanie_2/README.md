@@ -13,7 +13,7 @@
 2. Filmy w serwisie Tik-Tok
    * [Jak używać F-String](https://www.tiktok.com/@abixedukacja/video/7018466874237193477)
    * [Jak budować listę](https://www.tiktok.com/@abixedukacja/video/7025906319173422341) 
-   * [Petla iteracyjna for](https://www.tiktok.com/@abixedukacja/video/70266630583028810301)
+   * [Petla iteracyjna for](https://www.tiktok.com/@abixedukacja/video/7026663058302881030)
    * [Importowanie modułów](https://www.tiktok.com/@abixedukacja/video/7034052786467720453)
    * [Instrukcje warunkowe if ... else ...](https://www.tiktok.com/@abixedukacja/video/7016201797954047237)
 3. Materiały dla zainteresowanych pogłębiające informacje:
