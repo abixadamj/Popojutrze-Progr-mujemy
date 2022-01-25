@@ -1,3 +1,5 @@
+# przykład wykorzystania biblioteki requests
+
 import requests
 import json
 https_url = "https://wttr.in/Warsaw?format=j1"

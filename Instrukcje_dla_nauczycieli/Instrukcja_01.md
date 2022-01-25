@@ -1,6 +1,6 @@
 # Scenariusz/instrukcja lekcji dla nauczycieli
 
-Temat: Spotkanie 0 - 
+Temat: Spotkanie 1 - start, przygotowanie środowiska
 
 Autor: **Adam Jurkiewicz**
 
@@ -13,14 +13,9 @@ Licencja: CC BY-SA 4.0 - https://creativecommons.org/licenses/by-sa/4.0/deed.pl
 ## Podstawowe treści omawiane w materiale:
 
 - licencje na oprogramowanie
-
 - PyCharm i prosty projekt programistyczny
-
 - serwis GitHub - współpraca wielu osób nad projektem
-
-- podstawowe różnice w wywoływaniu skryptów Python w różnych systemach operacyjnych
-
-## Spis filmów na lekcji:
+- 
 
 ---
 
@@ -109,10 +104,6 @@ Na koniec lekcji tworzą konta w serwisie GitHub (https://github.com/), a osoba 
 ## Materiały pomocnicze:
 
 - Oficjalna dokumentacja techniczna dla języka Python 3 (lub nowszej wersji), dostępna pod adresem: [3.10.2 Documentation](https://docs.python.org/).
-
-## Filmy do obejrzenia w domu:
-
-- nr filmu + tytuł
 
 ## Wskazówki metodyczne:
 
