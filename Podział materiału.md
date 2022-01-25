@@ -139,6 +139,7 @@ Przed rozpoczęciem zajęć na wszystkich komputerach należy zainstalować **Vi
 8. Edytor grafiki: eksport obrazu jako PNG 
 9. Edytor HTML: różne elementy na stronie (address, listy, user input, sample output). 
 
+>Do tego miejsca OK
 
 #### Praca samodzielna (3):
 

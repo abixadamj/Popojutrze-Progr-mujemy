@@ -1,10 +1,12 @@
+# https://python.tutorialink.com/align-image-center-pysimplegui/
+
 # wczytujemy niezbędne elementy
 import PySimpleGUI as sg
 
 # definiujemy wygląd aplikacji
 app_layout = [
     [sg.Text("Sample text element")],
-    [sg.Text("Another text element")],
+    [sg.Column([[sg.Text("Another text element"), sg.Text("AAA")]], justification="center")],
 ]
 # uruchamiamy
 window = sg.Window("Example layout", app_layout)
