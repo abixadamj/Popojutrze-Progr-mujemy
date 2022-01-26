@@ -13,6 +13,9 @@ https_request = requests.get(https_url)
 # wyświetlamy zawartość
 print(https_request.text)
 
+# pewien sposób stworzenia obiektu JSON
+print(https_request.json())
+
 # importujemy bibliotekę JSON - https://docs.python.org/3.8/library/json.html
 import json
 
