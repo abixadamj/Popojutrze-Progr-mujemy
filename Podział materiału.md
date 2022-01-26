@@ -15,11 +15,17 @@
 
 #### To-do w projekcie:
 
-- [ ] Przygotowane środowisko pracy na platformie Moodle (open source) z możliwością pracy bezpośrednio przez zainteresowane szkoły, wyeksportowania pliku do wdrożenia na własnej platformie https://moodle.abixedukacja.eu/course/view.php?id=8
+- [ ] Przygotowane środowisko pracy na platformie Moodle (open source) z możliwością pracy bezpośrednio przez
+  zainteresowane szkoły, wyeksportowania pliku do wdrożenia na własnej
+  platformie https://moodle.abixedukacja.eu/course/view.php?id=8
 
-- [ ] Przewodnik dla uczniów dot. zakresu merytorycznego zajęć (w tym ogólnodostępnymi źródłami poszukiwania pomysłów projekty oraz  rozwiązań problemów programistycznych) oraz wprowadzenia w kontekst pracy zespołowej (case study wraz z podaniem przykładów problemów i sposobu ich rozwiązania) *dla uczniów wprowadzenie - po co w ogóle jest taki projekt*  
+- [x] Przewodnik dla uczniów dot. zakresu merytorycznego zajęć (w tym ogólnodostępnymi źródłami poszukiwania pomysłów
+  projekty oraz rozwiązań problemów programistycznych) oraz wprowadzenia w kontekst pracy zespołowej (case study wraz z
+  podaniem przykładów problemów i sposobu ich rozwiązania) *dla uczniów wprowadzenie - po co w ogóle jest taki projekt*
 
-- [ ] Kody źródłowe do przykładowych rozwiązań, o których mowa w instrukcji dla uczniów: https://github.com/ABIX-Edukacja/programuj-w-zespole (W tej chwili dla testowania jest repo https://github.com/abixadamj/Popojutrze-Progr-mujemy)
+- [ ] Kody źródłowe do przykładowych rozwiązań, o których mowa w instrukcji dla
+  uczniów: https://github.com/ABIX-Edukacja/programuj-w-zespole (W tej chwili dla testowania jest
+  repo https://github.com/abixadamj/Popojutrze-Progr-mujemy)
 
 - [x] OVA Linux z Pycharm i git i venv
 
@@ -143,9 +149,10 @@ Przed rozpoczęciem zajęć na wszystkich komputerach należy zainstalować **Vi
 
 #### Praca samodzielna (3):
 
-1. Testujemy dostęp do danych API (3 przykłady dla każdego projektu)
-2. Poznajemy kody odpowiedzi API: poprawnych i błędnych (3 przykłady dla każdego projektu)
-3. tworzymy własne repozytorium, pamiętamy o `.gitignore`, `README.md` oraz licencji
+1. Generowanie API_KEY dla wybranego projektu (Aviationstack) - https://aviationstack.com/signup/free
+2. Testujemy dostęp do danych API (3 przykłady dla każdego projektu)
+3. Poznajemy kody odpowiedzi API: poprawnych i błędnych (3 przykłady dla każdego projektu)
+4. tworzymy własne repozytorium, pamiętamy o `.gitignore`, `README.md` oraz licencji
 
 #### Lekcja w szkole (4):
 
@@ -156,22 +163,20 @@ Przed rozpoczęciem zajęć na wszystkich komputerach należy zainstalować **Vi
    1. https://aviationstack.com/documentation
    2. https://numverify.com/documentation
    3. https://wttr.in/:help
-5. Przygotowanie dokumentacji i strony w HTML
 
 
 #### Praca samodzielna (4):
 
-1. Testy dostępu do serwisu API
-2. Definiowanie funkcji w Python
-3. Sprawdzenie działania - skrypt odczytujący i prezentujący wybrane dane
-4. Wysłanie projektu do serwisu GitHub
+1. Definiowanie funkcji w Python
+2. Sprawdzenie działania - skrypt odczytujący i prezentujący wybrane dane
+3. Wysłanie projektu do serwisu GitHub
+4. Przygotowanie dokumentacji i strony w HTML
 
 #### Lekcja w szkole (5):
 
-1. Generowanie API_KEY  dla wybranego projektu (Aviationstack) - https://aviationstack.com/signup/free
-2. Aktualizowanie wartości dla kluczy słowników - 1
-3. Tworzenie słowników i dodawania do nich elementów - 1
-4. Przygotowanie dokumentacji i strony w HTML
+1. Aktualizowanie wartości dla kluczy słowników - 1
+2. Tworzenie słowników i dodawania do nich elementów - 1
+3. Weryfikacja przygotowania dokumentacji i strony w HTML
 
 #### Praca samodzielna (5):
 
