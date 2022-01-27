@@ -90,7 +90,7 @@ Przed rozpoczęciem zajęć na wszystkich komputerach należy zainstalować **Vi
 2. Przygotowujemy środowisko `venv` dla lokalnego projektu
 3. Plik `requirements.txt` - zewnętrzne moduły, własne pliki `py` w projekcie 
 4. Minimalny program z wykorzystaniem PySimpleGUI
-5. Skąd będziemy czerpać grafiki? Pixabay i Freeicon.
+5. Skąd będziemy czerpać grafiki? Pixabay, Freepik i Flaticon.
 6. Uruchamiamy edytor tekstów - format strony.
 7. Uruchamiamy edytor grafiki - otwieramy przykładowy plik graficzny.
 8. Uruchamiamy edytor HTML - podstawowa strona z szablonu.

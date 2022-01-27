@@ -16,8 +16,9 @@ licencjach:
 - edytor tekstów Libre Office Writer (https://libreoffice.org)
 - edytor grafiki GIMP (https://gimp.org)
 - edytor HTML Bluefish (https://bluefish.openoffice.nl)
-  W systemie, który jako `OVA` przygotowaliśmy w celu prostego prowadzenia zajęć, wszelkie aplikacje są już
-  zainstalowane i skonfigurowane.
+
+W systemie, który jako `OVA` przygotowaliśmy w celu prostego prowadzenia zajęć, wszelkie aplikacje są już zainstalowane
+i skonfigurowane.
 
 Całość materiałów przygotowaliśmy z myślą o standardowym podziale:
 
