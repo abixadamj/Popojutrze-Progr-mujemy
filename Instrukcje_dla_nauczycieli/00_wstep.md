@@ -60,7 +60,7 @@ Virtualbox** oraz zaimportować do niego maszynę `OVA` - poniżej lista kroków
 1. Lekcja w szkole - podział, tematy itp... wstęp
 2. Lekcja w szkole - ustawienia wstępne środowiska
     * Praca samodzielna - maszyna wirtualna i podstawy aplikacji
-3. Lekcja w szkole - podstawowe typy danych i konstrukcji programistycznych w Python
+3. Lekcja w szkole - podstawowe typy danych i konstrukcje programistyczne w Python
     * Praca samodzielna - obsługa głównych elementów biblioteki PySimpleGUI
 4. Lekcja w szkole - requests i API - słowniki i JSON
     * Praca samodzielna - samodzielne testy dostępu do API

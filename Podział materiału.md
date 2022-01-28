@@ -86,35 +86,35 @@ Przed rozpoczęciem zajęć na wszystkich komputerach należy zainstalować **Vi
 
 #### Lekcja w szkole (1):
 
-1. Konfiguracja IDE PyCharm, tworzenie konta w GitHub.com
-2. Przygotowujemy środowisko `venv` dla lokalnego projektu
-3. Plik `requirements.txt` - zewnętrzne moduły, własne pliki `py` w projekcie 
-4. Minimalny program z wykorzystaniem PySimpleGUI
-5. Skąd będziemy czerpać grafiki? Pixabay, Freepik i Flaticon.
-6. Uruchamiamy edytor tekstów - format strony.
-7. Uruchamiamy edytor grafiki - otwieramy przykładowy plik graficzny.
-8. Uruchamiamy edytor HTML - podstawowa strona z szablonu.
-9. Edytor HTML: Bootstrap - https://getbootstrap.com/ 
+1. Konfiguracja IDE PyCharm, tworzenie konta w GitHub.com a01
+2. Przygotowujemy środowisko `venv` dla lokalnego projektu a02
+3. Plik `requirements.txt` - zewnętrzne moduły, własne pliki `py` w projekcie a03
+4. Minimalny program z wykorzystaniem PySimpleGUI a04
+5. Skąd będziemy czerpać grafiki? Pixabay, Freepik i Flaticon. (b01)
+6. Uruchamiamy edytor tekstów - format strony. b02
+7. Uruchamiamy edytor grafiki - otwieramy przykładowy plik graficzny. b03
+8. Uruchamiamy edytor HTML - podstawowa strona z szablonu. b04
+9. Edytor HTML: Bootstrap - https://getbootstrap.com/ b05
 
 #### Praca samodzielna (1):
 
-1. VirtualBox w Windows i jak importować maszynę `OVA` - aby pracować niezależnie od szkoły
-2. PySimpleGui - dokumentacja, przykłady użycia
-3. Edytor teskstów: nagłówek i stopka
-4. Edytor teskstów: style i spis treści
-5. Edytor grafiki: zmiana rozmiaru i zapis XCF
-6. Edytor HTML:  różne znaczniki `meta` 
+1. VirtualBox w Windows i jak importować maszynę `OVA` - aby pracować niezależnie od szkoły b06
+2. PySimpleGui - dokumentacja, przykłady użycia a05
+3. Edytor teskstów: nagłówek i stopka b07
+4. Edytor teskstów: style i spis treści b08
+5. Edytor grafiki: zmiana rozmiaru i zapis XCF b09
+6. Edytor HTML:  różne znaczniki `meta`  b10
 
 #### Lekcja w szkole (2):
 
-1. Podstawowe typy danych w Python, zmienne 
-2. Typy zaawansowane: listy, słowniki 
-3. Importowanie z zewnętrznych modułów 
-4. Pętla `for` i listy
-5. Instrukcja warunkowa `if ... else ...` 
-6. Edytor teskstów: listy numerowane i nienumerowane 
-7. Edytor grafiki: warstwy i dodanie elementu
-8. Edytor HTML: containers i columns
+1. Podstawowe typy danych w Python, zmienne a06
+2. Typy zaawansowane: listy, słowniki a07
+3. Importowanie z zewnętrznych modułów a08
+4. Pętla `for` i listy a09
+5. Instrukcja warunkowa `if ... else ...` a10
+6. Edytor teskstów: listy numerowane i nienumerowane b11
+7. Edytor grafiki: warstwy i dodanie elementu b12
+8. Edytor HTML: containers i columns b13
 
 
 #### Praca samodzielna (2):
