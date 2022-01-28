@@ -7,7 +7,11 @@ Autor: **Adam Jurkiewicz**
 Licencja: CC BY-SA 4.0 - https://creativecommons.org/licenses/by-sa/4.0/deed.pl
 
 #### Opis ogólny:
-> W trakcie tego spotkania  skupiamy się na przygotowaniu środowiska pracy, a więc na koncie w serwisie GitHub
+
+> W trakcie tego spotkania  skupiamy się na przygotowaniu środowiska pracy, a więc na koncie w serwisie GitHub.
+> Dodatkowo młodzież pozna różnego rodzaju licencje na materiały i oprogramowanie, oraz co najważniejsze - stworzy swój pierwszy program
+> w Pythonie - zgodnie z zasadą szybkich efektów pracy, aby nie zniechęcić się na początku.
+
 ---
 
 ## Podstawowe treści omawiane w materiale:
@@ -15,7 +19,7 @@ Licencja: CC BY-SA 4.0 - https://creativecommons.org/licenses/by-sa/4.0/deed.pl
 - licencje na oprogramowanie
 - PyCharm i prosty projekt programistyczny
 - serwis GitHub - współpraca wielu osób nad projektem
-- serwisy z darmowymi materiałami graficznyi
+- serwisy z darmowymi materiałami graficznymi
 - Writer - edytor tekstów
 - GIMP - edytor grafiki
 - Bluefish - edytor HTML

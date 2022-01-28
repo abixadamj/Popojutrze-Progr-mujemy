@@ -53,7 +53,12 @@ Virtualbox** oraz zaimportować do niego maszynę `OVA` - poniżej lista kroków
 > Ważne, aby zachować układ: aplikacja, dokumentacja, strona internetowa o produkcie.
 > Najsłabsi mogą skorzystać z projektu Lokalizacji lotów samolotów, ważny jest proces budowania aplikacji,
 > aby młodzież nauczyła się współpracy w zespole. Najbardziej kreatywni mogą zaś dowolnie kształtować wykonywane
-> przez siebie projekty - nie ograniczajmy ich, nawet, jeśli przewyższają nas wiedzą techniczną.
+> przez siebie projekty - nie ograniczajmy ich, nawet, jeśli przewyższają nas wiedzą techniczną - a zwłaszcza wtedy dajmy im sporą swobodę w działaniu.
+> Możemy być zadzwieni ich kreatywnością.
+
+##### Wybór projektu dla aplikacji może nastąpić po lekcji 3, kiedy w trakcie samodzielnej pracy uczniowie mogą sprawdzić różne API, lub zespoły mogą pozostać przy jednej z trzech naszych propozycji.
+
+---
 
 #### Podział materiału na lekcje i pracę w domu - nasza propozycja:
 
