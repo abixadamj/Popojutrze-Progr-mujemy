@@ -45,19 +45,25 @@ Virtualbox** oraz zaimportować do niego maszynę `OVA` - poniżej lista kroków
 
 #### Realizujemy działania w oparciu o 3 przykładowe projekty:
 
-1. Lokalizacje lotów samolotów: https://aviationstack.com
+1. Lokalizacje lotów samolotów: https://aviationstack.com (w filmach używam tego projektu).
 2. Weryfikacja firm dla numerów telefonów: https://numverify.com
 3. Alert pogodowy dla 3 dniowej prognozy: https://wttr.in/
+
+> Oczywiście, każdy zespół może sobie wybrać dowolny inny projekt (inne API, inne funkcjonalności).
+> Ważne, aby zachować układ: aplikacja, dokumentacja, strona internetowa o produkcie.
+> Najsłabsi mogą skorzystać z projektu Lokalizacji lotów samolotów, ważny jest proces budowania aplikacji,
+> aby młodzież nauczyła się współpracy w zespole. Najbardziej kreatywni mogą zaś dowolnie kształtować wykonywane
+> przez siebie projekty - nie ograniczajmy ich, nawet, jeśli przewyższają nas wiedzą techniczną.
 
 #### Podział materiału na lekcje i pracę w domu - nasza propozycja:
 
 1. Lekcja w szkole - podział, tematy itp... wstęp
 2. Lekcja w szkole - ustawienia wstępne środowiska
-   * Praca samodzielna - maszyna wirtualna i podstawy aplikacji
+    * Praca samodzielna - maszyna wirtualna i podstawy aplikacji
 3. Lekcja w szkole - podstawowe typy danych i konstrukcji programistycznych w Python
-   * Praca samodzielna - obsługa głównych elementów biblioteki PySimpleGUI
+    * Praca samodzielna - obsługa głównych elementów biblioteki PySimpleGUI
 4. Lekcja w szkole - requests i API - słowniki i JSON
-   * Praca samodzielna - samodzielne testy dostępu do API
+    * Praca samodzielna - samodzielne testy dostępu do API
 5. Lekcja w szkole - różne interfejsy aplikacji, `Commit/Push` do repozytorium
    * Praca samodzielna - definiowanie funkcji w Python i dalsze przygotowywanie dokumentacji
 6. Lekcja w szkole - praca z kluczami i wartościami słowników
