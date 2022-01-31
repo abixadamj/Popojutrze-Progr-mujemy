@@ -128,15 +128,15 @@ siebie. W języku Python używamy następującej składni (zapisu):
 
 ```python
 if warunek_1:
-# blok kodu gdy warunek_1 jest prawdą
+    # blok kodu gdy warunek_1 jest prawdą
 elif warunek_2:
-# blok kodu gdy warunek_2 jest prawdą
+    # blok kodu gdy warunek_2 jest prawdą
 elif warunek_3:
-# blok kodu gdy warunek_3 jest prawdą
+    # blok kodu gdy warunek_3 jest prawdą
 elif warunek_n:
-# blok kodu gdy warunek_n jest prawdą
+    # blok kodu gdy warunek_n jest prawdą
 else:
-# blok kodu wykonywany wówczas, kiedy żaden z powyższych warunków nie jest spełniony
+    # blok kodu wykonywany wówczas, kiedy żaden z powyższych warunków nie jest spełniony
 ```
 
 Minimalnie musimy podać jeden warunek, a ich maksymalna ilość jest nieograniczona. Warunki są sprawdzane w kolejności, w
