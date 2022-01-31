@@ -114,69 +114,70 @@ Przed rozpoczęciem zajęć na wszystkich komputerach należy zainstalować **Vi
 5. Instrukcja warunkowa `if ... else ...` a10
 6. Edytor teskstów: listy numerowane i nienumerowane b11
 7. Edytor grafiki: warstwy i dodanie elementu b12
-8. Edytor HTML: containers i columns b13
+8. Edytor HTML: containers b13
 
 
 #### Praca samodzielna (2):
 
-1. Wyświetlamy informację - 1 (text)
-2. Rozpakowywanie tupli - pythonizm.
-3. Pętla `while True` - sterowanie programem PySimpleGUI
-4. Dodajemy elementy przycisków - 1 (button)
-5. Dodajemy wyświetlanie obrazków - 1 (Image)
-6. Poznajemy sposoby wprowadzania danych - 1 (input)
-7. Poznajemy sterowanie - 1 (window.read())
-8. PySimpleGui - tworzymy prosty program okienkowy - 1 (layout, listy)
-9. Wyświetlanie większej ilości danych (output)
-10. Edytor teskstów: zrzut zawartości okna aplikacji i dodanie do tekstu
-11. Edytor grafiki: warstwy i dodanie tekstu. 
-12. Edytor HTML: różne elementy na stronie (headings, display, obrazy, listy).
+1. Wyświetlamy informację - 1 (text) a11
+2. Rozpakowywanie tupli - pythonizm. a12
+3. Pętla `while True` - sterowanie programem PySimpleGUI a13
+4. Dodajemy elementy przycisków - 1 (button) a14
+5. Dodajemy wyświetlanie obrazków - 1 (Image) a15
+6. Poznajemy sposoby wprowadzania danych - 1 (input) a16
+7. Poznajemy sterowanie - 1 (window.read()) a17
+8. PySimpleGui - tworzymy prosty program okienkowy - 1 (layout, listy) a18
+9. Wyświetlanie większej ilości danych (output) a19
+10. Edytor teskstów: zrzut zawartości okna aplikacji i dodanie do tekstu b14
+11. Edytor grafiki: warstwy i dodanie tekstu. b15
+12. Edytor HTML: różne elementy na stronie (headings, display, obrazy, listy). b16
 
 
 #### Lekcja w szkole (3):
 
-1. Poznajemy `Python Console` w PyCharm + Wykorzystujemy `requirements.txt` i instalujemy niezbędne elementy: `requests` 
-2. Wykonujemy request z serwisu https://fastapi.jurkiewicz.tech/ i pokazujemy odczytane dane
-3. `JSON` i słowniki w Python - 1
-4. Użycie pętli `for` dla pokazania elementów słownika z serwisu https://fastapi.jurkiewicz.tech/ - i dodatkowo pokazujemy IP klienta
-5. Listy jako elementy słowników - 1
-6. Słowniki jako elementy słowników - 1
-7. Edytor teskstów: eksport dokumentu do formatu PDF
-8. Edytor grafiki: eksport obrazu jako PNG 
-9. Edytor HTML: różne elementy na stronie (address, listy, user input, sample output). 
-
->Do tego miejsca OK
+1. Poznajemy `Python Console` w PyCharm + Wykorzystujemy `requirements.txt` i instalujemy niezbędne elementy: `requests`
+   a20
+2. Wykonujemy request z serwisu https://fastapi.jurkiewicz.tech/ i pokazujemy odczytane dane a21
+3. `JSON` i słowniki w Python a22
+4. Użycie pętli `for` dla pokazania elementów słownika z serwisu https://fastapi.jurkiewicz.tech/ - i dodatkowo
+   pokazujemy IP klienta a23
+5. Listy jako elementy słowników a24
+6. Słowniki jako elementy słowników a25
+7. Edytor teskstów: eksport dokumentu do formatu PDF b17
+8. Edytor grafiki: eksport obrazu jako PNG b18
+9. Edytor HTML: różne elementy na stronie (address, listy, user input, sample output). b19
 
 #### Praca samodzielna (3):
 
-1. Generowanie API_KEY dla wybranego projektu (Aviationstack) - https://aviationstack.com/signup/free
-2. Testujemy dostęp do danych API (3 przykłady dla każdego projektu)
-3. Poznajemy kody odpowiedzi API: poprawnych i błędnych (3 przykłady dla każdego projektu)
-4. tworzymy własne repozytorium, pamiętamy o `.gitignore`, `README.md` oraz licencji
+1. Generowanie API_KEY dla wybranego projektu (Aviationstack) - https://aviationstack.com/signup/free a26
+2. Testujemy dostęp do danych API (3 przykłady dla każdego projektu) a27 / a28 / a29
+3. Poznajemy kody odpowiedzi API: poprawnych i błędnych (3 przykłady dla każdego projektu) a30 / a31 /a32
+4. tworzymy własne repozytorium, pamiętamy o `.gitignore`, `README.md` oraz licencji a33
 
 #### Lekcja w szkole (4):
 
-1. Budowanie różnych interfejsów w PySimpleGUI - listy list, przykłady.
-2. Replikacja projektu z GitHub do PyCharm (open via VCS) i dodanie lokalnego venv (Add interpreter) i w requirements.txt `Install all packages`
-3. Dodanie do repozytorium pracy z aplikacją PySimpleGUI i `Commit/Push`
-4. Sprawdzamy dokumentację dla przykładowych API:
-   1. https://aviationstack.com/documentation
-   2. https://numverify.com/documentation
-   3. https://wttr.in/:help
+1. Budowanie różnych interfejsów w PySimpleGUI - listy list, przykłady. a34
+2. Replikacja projektu z GitHub do PyCharm (open via VCS) i dodanie lokalnego venv (Add interpreter) i w
+   requirements.txt `Install all packages` a35
+3. Dodanie do repozytorium pracy z aplikacją PySimpleGUI i `Commit/Push` a36
+4. Sprawdzamy dokumentację dla przykładowych API: a37 / 138/ a39
+    1. https://aviationstack.com/documentation
+    2. https://numverify.com/documentation
+    3. https://wttr.in/:help
 
 
 #### Praca samodzielna (4):
 
-1. Definiowanie funkcji w Python
-2. Sprawdzenie działania - skrypt odczytujący i prezentujący wybrane dane
-3. Wysłanie projektu do serwisu GitHub
-4. Przygotowanie dokumentacji i strony w HTML
+1. Definiowanie funkcji w Python a40
+2. Sprawdzenie działania - skrypt odczytujący i prezentujący wybrane dane a41
+3. Wysłanie projektu do serwisu GitHub a42
+4. Przygotowanie dokumentacji i strony w HTML b20
 
 #### Lekcja w szkole (5):
 
-1. Aktualizowanie wartości dla kluczy słowników - 1
-2. Tworzenie słowników i dodawania do nich elementów - 1
-3. Weryfikacja przygotowania dokumentacji i strony w HTML
+1. Aktualizowanie wartości dla kluczy słowników a43
+2. Tworzenie słowników i dodawania do nich elementów a44
+3. Weryfikacja przygotowania dokumentacji i strony w HTML b21
 
 #### Praca samodzielna (5):
 
