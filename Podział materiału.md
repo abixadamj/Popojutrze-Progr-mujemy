@@ -112,7 +112,7 @@ Przed rozpoczęciem zajęć na wszystkich komputerach należy zainstalować **Vi
 3. Importowanie z zewnętrznych modułów a08
 4. Pętla `for` i listy a09
 5. Instrukcja warunkowa `if ... else ...` a10
-6. Edytor teskstów: listy numerowane i nienumerowane b11
+6. Edytor tekstów: listy numerowane i nienumerowane b11
 7. Edytor grafiki: warstwy i dodanie elementu b12
 8. Edytor HTML: containers b13
 
