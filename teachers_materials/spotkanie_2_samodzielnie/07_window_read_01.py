@@ -1,4 +1,7 @@
+# wczytywanie z okna window.read()
+#input - wprowadzanie danych
 # dodajemy własne przyciski
+
 # wczytujemy niezbędne elementy
 import PySimpleGUI as sg
 
@@ -6,10 +9,10 @@ import PySimpleGUI as sg
 # definiujemy wygląd aplikacji
 app_layout = [
     [sg.Text("Sample text element")],
-    [sg.Button("First button text"), sg.Button("", image_filename="boarding-pass.png", tooltip="Test our functions!")],
+    [sg.Text("Enter value"), sg.Input("Default"), sg.Button("Print It")],
     [sg.Text("Another text element")],
-    [sg.Button("TEST")],
-    [sg.OK(), sg.Button("Button text", tooltip="Some additional info"), sg.Exit()],
+    [sg.Text("Enter another value"), sg.Input("Default"), sg.Button("Print It")],
+    [sg.OK(), sg.Button("Button text"), sg.Exit()],
 ]
 window = sg.Window("Example layout", app_layout)
 # używamy pętli nieskończonej, która działa aż do słowa kluczowego `break`
@@ -17,8 +20,9 @@ window = sg.Window("Example layout", app_layout)
 while True:
     # poniższe wywołanie otwiera okno i wczytuje dane
     event, values = window.read()
-    if event == sg.WIN_CLOSED or event == "Exit":
-        print("Hard EXIT")
+    # inny sposób sprawdzania - tu x spowoduje zniknięcie okna
+    if event in (sg.WIN_CLOSED, "Exit") and sg.popup_yes_no('Do you really want to exit?') == 'Yes':
+        print("Break and EXIT")
         break
 
     # dodajemy sprawdzenie wciśniętego przycisku
@@ -31,16 +35,17 @@ while True:
         )
 
     # sprawdzamy wartości zwracane przez okno
-    sg.popup("Event is:", event, "Returned dict is:", values)
+    sg.popup("Evnt is:", event, "Returned dict is:", values)
 
     # sprawdzamy naciśnięte przyciski
-    if event == "TEST":
-        value = "TEST Pressed"
+    if event == "Print It":
+        value = f"You entered: {values[0]}"
         sg.popup_auto_close(value, title=event)
-    elif event == "First button text":
-        value = "Something..."
+    elif event == "Print It0":
+        value = f"You entered: {values[1]}"
         sg.popup_auto_close(value, title=event)
 
 # koniec programu
 window.close()
 print("End of application")
+

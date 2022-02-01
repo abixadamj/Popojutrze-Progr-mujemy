@@ -1,5 +1,3 @@
-# https://python.tutorialink.com/align-image-center-pysimplegui/
-
 # wczytujemy niezbędne elementy
 import PySimpleGUI as sg
 

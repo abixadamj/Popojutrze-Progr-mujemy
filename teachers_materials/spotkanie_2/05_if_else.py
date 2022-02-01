@@ -36,7 +36,7 @@ print(f"Header is: {server_name} - type is: {type(server_name)} ")
 if server_name[1] == "Apache":
     print("OK, this is Apache server")
 else:
-    print(f"Some strange srver type: {server_name[1]}")
+    print(f"Some strange server type: {server_name[1]}")
 print("#" * 30)
 # inny sposób
 if "Apache" in server_name:

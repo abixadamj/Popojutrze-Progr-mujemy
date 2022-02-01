@@ -19,7 +19,7 @@ for plane in planes:
     # przykład wykorzystania wyrażenia logicznego w {}
     # zwracamy uwagę na różne znaki cudzysłowów
     print(f"Czy to jest Boeing? -> {'Boeing' in plane}")
-    print(f"Czy instnieje Boeing 747 Jumbo Jet? -> {'Boeing 747 Jumbo Jet' in plane}")
+    print(f"Czy istnieje Boeing 747 Jumbo Jet? -> {'Boeing 747 Jumbo Jet' in plane}")
 
 #####################################################
 # lista pobrana jako wynik funkcji
