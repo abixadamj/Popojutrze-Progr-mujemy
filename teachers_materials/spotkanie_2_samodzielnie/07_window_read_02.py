@@ -1,10 +1,9 @@
 # wczytywanie z okna window.read()
-#input - wprowadzanie danych
+# input - wprowadzanie danych
 # dodajemy własne przyciski
 
 # wczytujemy niezbędne elementy
 import PySimpleGUI as sg
-
 
 # definiujemy wygląd aplikacji
 app_layout = [
@@ -48,4 +47,3 @@ while True:
 # koniec programu
 window.close()
 print("End of application")
-

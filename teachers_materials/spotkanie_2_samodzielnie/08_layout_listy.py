@@ -14,8 +14,8 @@ columns = [
     [sg.Text('col Row 7'), sg.Input('col input 7')],
     [sg.Text("_" * 70)],
     [sg.Text("Maximum value for counter (10 000): ")],
-    [sg.Slider(range=(1,10000), default_value=10, orientation='h', size=(50,20))],
-    ]
+    [sg.Slider(range=(1, 10000), default_value=10, orientation='h', size=(50, 20))],
+]
 
 app_layout = [
     [sg.Text("Sample text element")],
@@ -34,7 +34,6 @@ window.close()
 # wyświetlamy wprowadzone wartości
 sg.Popup(event, values, line_width=200)
 max_counter = int(values[8])
-
 
 # definiujemy wygląd aplikacji
 app_layout = [

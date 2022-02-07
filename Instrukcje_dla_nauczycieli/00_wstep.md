@@ -29,6 +29,15 @@ Całość materiałów przygotowaliśmy z myślą o standardowym podziale:
 
 ---
 
+#### Informacje dla uczniów
+
+Jeśli uczniowie potrzebują poznać lub ugruntować podstawową wiedzę o języku Python, proponujemy aby skorzystali ze szkoleń 
+dostępnych w protalu OSE za darmo: 
+- Podstawowy: https://it-szkola.edu.pl/kkurs,kurs,216 wraz z kodami w serwisie GitHub: https://github.com/klubmlodegoprogramisty/python/tree/main/poziom_podstawowy
+- Średnio zaawansowany: https://it-szkola.edu.pl/kkurs,kurs,217 wraz z kodami w serwisie GitHub: https://github.com/klubmlodegoprogramisty/python/tree/main/poziom_sredniozaawansowany
+
+---
+
 #### Informacja dla szkolnego administratora sieci:
 
 w celu unifikacji i ułatwienia pracy przygotowaliśmy kompletny system operacyjny Linux Ubuntu 20.04 LTS w wersji maszyny

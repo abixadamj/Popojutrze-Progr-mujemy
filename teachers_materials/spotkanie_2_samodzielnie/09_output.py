@@ -1,17 +1,15 @@
-#output - wyświetlanie większej ilości informacji na ekranie
+# output - wyświetlanie większej ilości informacji na ekranie
 #
 import sys
 import os
 import PySimpleGUI as sg
 from loremipsum import get_paragraph
 
-
-
 app_layout = [
     [sg.Text("Sample text element")],
     [sg.Output(size=(100, 15))],
     [sg.Multiline(size=(100, 5), enter_submits=True),
-        sg.Button('SEND', button_color=(sg.YELLOWS[0], sg.BLUES[0]))],
+     sg.Button('SEND', button_color=(sg.YELLOWS[0], sg.BLUES[0]))],
     [sg.OK(), sg.OK("Some random text"), sg.Button("System info")],
 ]
 # uruchamiamy

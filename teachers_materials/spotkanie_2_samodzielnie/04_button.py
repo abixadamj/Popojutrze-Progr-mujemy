@@ -2,7 +2,6 @@
 # wczytujemy niezbędne elementy
 import PySimpleGUI as sg
 
-
 # definiujemy wygląd aplikacji
 app_layout = [
     [sg.Text("Sample text element")],

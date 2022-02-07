@@ -68,17 +68,18 @@ Przed rozpoczęciem zajęć na wszystkich komputerach należy zainstalować **Vi
 ### Podział materiału na lekcjach:
 
 1. Lekcja w szkole - podział, tematy itp... wstęp
-2. Lekcja w szkole 
-   1. Praca samodzielna
-3. Lekcja w szkole
-   1. Praca samodzielna
-4. Lekcja w szkole
-   1. Praca samodzielna
-5. Lekcja w szkole
-   1. Praca samodzielna
-6. Lekcja w szkole
-   2. Praca samodzielna      
-7. Lekcja w szkole - podsumowanie projektów, post-testy itp....
+2. Lekcja w szkole - ustawienia wstępne środowiska
+    * Praca samodzielna - maszyna wirtualna i podstawy aplikacji
+3. Lekcja w szkole - podstawowe typy danych i konstrukcje programistyczne w Python
+    * Praca samodzielna - obsługa głównych elementów biblioteki PySimpleGUI
+4. Lekcja w szkole - requests i API - słowniki i JSON
+    * Praca samodzielna - samodzielne testy dostępu do API
+5. Lekcja w szkole - różne interfejsy aplikacji, `Commit/Push` do repozytorium
+   * Praca samodzielna - definiowanie funkcji w Python i dalsze przygotowywanie dokumentacji
+6. Lekcja w szkole - praca z kluczami i wartościami słowników
+   * Praca samodzielna - końcowe tworzenie dokumentacji
+7. Lekcja w szkole - podsumowanie projektów, wybór najlepszego projektu, post-testy itp.
+
 
 *Pamiętamy, aby po każdej lekcji w szkole lub pracy samodzielnej uczestnicy zaktualizowali swoje repozytoria poprzez `Commit/Push`*
 

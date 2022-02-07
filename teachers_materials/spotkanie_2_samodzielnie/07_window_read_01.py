@@ -1,10 +1,9 @@
 # wczytywanie z okna window.read()
-#input - wprowadzanie danych
+# input - wprowadzanie danych
 # dodajemy własne przyciski
 
 # wczytujemy niezbędne elementy
 import PySimpleGUI as sg
-
 
 # definiujemy wygląd aplikacji
 app_layout = [
@@ -35,7 +34,7 @@ while True:
         )
 
     # sprawdzamy wartości zwracane przez okno
-    sg.popup("Evnt is:", event, "Returned dict is:", values)
+    sg.popup("Event is:", event, "Returned dict is:", values)
 
     # sprawdzamy naciśnięte przyciski
     if event == "Print It":
@@ -48,4 +47,3 @@ while True:
 # koniec programu
 window.close()
 print("End of application")
-
