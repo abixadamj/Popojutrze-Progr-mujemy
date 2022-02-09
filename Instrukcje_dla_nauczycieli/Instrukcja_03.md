@@ -1,13 +1,13 @@
 # Scenariusz/instrukcja lekcji dla nauczycieli
 
-Temat: Spotkanie 3 - requests i API — słowniki i JSON 
+Temat: Spotkanie 3 - requests, API, słowniki i JSON 
 
 Autor: **Adam Jurkiewicz**
 
 Licencja: CC BY-SA 4.0 - https://creativecommons.org/licenses/by-sa/4.0/deed.pl
 
 #### Opis ogólny:
->W trakcie tego spotkania 
+>W trakcie tego spotkania poznajemy pierwszy sposób wykorzystania danych z zewnętrznego API (serwisu podającego dane).
 ---
 
 ## Podstawowe treści omawiane w materiale:
@@ -19,8 +19,6 @@ Licencja: CC BY-SA 4.0 - https://creativecommons.org/licenses/by-sa/4.0/deed.pl
 - serwis GitHub - współpraca wielu osób nad projektem
 
 - podstawowe różnice w wywoływaniu skryptów Python w różnych systemach operacyjnych
-
-## Spis filmów na lekcji:
 
 ---
 
@@ -36,15 +34,25 @@ Licencja: CC BY-SA 4.0 - https://creativecommons.org/licenses/by-sa/4.0/deed.pl
 
 ### Faza realizacyjna:
 
-- Ćwiczenie umiejętności. Uczniowie sprawdzają, czy mają zainstalowane odpowiednie oprogramowanie. W razie potrzeby instalują z repozytoriów
+1. #### Poznajemy `Python Console` w PyCharm + Wykorzystujemy `requirements.txt` i instalujemy niezbędne elementy: `requests`
+   a20
 
-Windows 10 ze strony [https://jetbrains.com](https://jetbrains.com)
+2. #### Wykonujemy request z serwisu https://fastapi.jurkiewicz.tech/ i pokazujemy odczytane dane a21
 
-Pobieramy ze strony producenta - zwracamy uwagę, aby pobrać wersję Community - jest na otwartej licencji 
+3. #### `JSON` i słowniki w Python a22
 
-Po instalacji wszystkich niezbędnych aplikacji testowo wykonują lokalne środowisko virtualenv w PyCharm i tam dla testów wykonują bardzo prostą aplikację:
+4. #### Użycie pętli `for` dla pokazania elementów słownika z serwisu https://fastapi.jurkiewicz.tech/ a23
 
-![Zrzut ekranu](00_gui.png)
+5. #### Listy jako elementy słowników a24
+
+6. #### Słowniki jako elementy słowników a25
+
+7. #### Edytor tekstów: eksport dokumentu do formatu PDF b17
+
+8. #### Edytor grafiki: eksport obrazu jako PNG b18
+
+9. #### Edytor HTML: różne elementy na stronie (address, listy, user input, sample output). b19
+
 
 ```python
 import PySimpleGUI as sg

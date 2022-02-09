@@ -140,8 +140,7 @@ Przed rozpoczęciem zajęć na wszystkich komputerach należy zainstalować **Vi
    a20
 2. Wykonujemy request z serwisu https://fastapi.jurkiewicz.tech/ i pokazujemy odczytane dane a21
 3. `JSON` i słowniki w Python a22
-4. Użycie pętli `for` dla pokazania elementów słownika z serwisu https://fastapi.jurkiewicz.tech/ - i dodatkowo
-   pokazujemy IP klienta a23
+4. Użycie pętli `for` dla pokazania elementów słownika z serwisu https://fastapi.jurkiewicz.tech/ a23
 5. Listy jako elementy słowników a24
 6. Słowniki jako elementy słowników a25
 7. Edytor tekstów: eksport dokumentu do formatu PDF b17
