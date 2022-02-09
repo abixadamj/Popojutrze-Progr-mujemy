@@ -144,7 +144,7 @@ Przed rozpoczęciem zajęć na wszystkich komputerach należy zainstalować **Vi
    pokazujemy IP klienta a23
 5. Listy jako elementy słowników a24
 6. Słowniki jako elementy słowników a25
-7. Edytor teskstów: eksport dokumentu do formatu PDF b17
+7. Edytor tekstów: eksport dokumentu do formatu PDF b17
 8. Edytor grafiki: eksport obrazu jako PNG b18
 9. Edytor HTML: różne elementy na stronie (address, listy, user input, sample output). b19
 
