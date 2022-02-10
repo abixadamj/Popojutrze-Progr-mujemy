@@ -156,11 +156,12 @@ Przed rozpoczęciem zajęć na wszystkich komputerach należy zainstalować **Vi
 
 #### Lekcja w szkole (4):
 
-1. Budowanie różnych interfejsów w PySimpleGUI - listy list, przykłady. a34
-2. Replikacja projektu z GitHub do PyCharm (open via VCS) i dodanie lokalnego venv (Add interpreter) i w
-   requirements.txt `Install all packages` a35
-3. Dodanie do repozytorium pracy z aplikacją PySimpleGUI i `Commit/Push` a36
-4. Sprawdzamy dokumentację dla przykładowych API: a37 / 138/ a39
+1. Definiowanie funkcji w Python. a34
+2. Funkcje i zasięg zmiennych w Python. a35
+3. Replikacja projektu z GitHub do PyCharm (open via VCS) i dodanie lokalnego venv (Add interpreter) i w
+   requirements.txt `Install all packages` a36
+4. Dodanie do repozytorium pracy z aplikacją PySimpleGUI i `Commit/Push` a37
+5. Sprawdzamy dokumentację dla przykładowych API: a38/ a39/ a50
     1. https://aviationstack.com/documentation
     2. https://numverify.com/documentation
     3. https://wttr.in/:help
@@ -168,10 +169,9 @@ Przed rozpoczęciem zajęć na wszystkich komputerach należy zainstalować **Vi
 
 #### Praca samodzielna (4):
 
-1. Definiowanie funkcji w Python a40
-2. Sprawdzenie działania - skrypt odczytujący i prezentujący wybrane dane a41
-3. Wysłanie projektu do serwisu GitHub a42
-4. Przygotowanie dokumentacji i strony w HTML b20
+1. Sprawdzenie działania - skrypt odczytujący i prezentujący wybrane dane a41
+2. Wysłanie projektu do serwisu GitHub a42
+3. Przygotowanie dokumentacji i strony w HTML b20
 
 #### Lekcja w szkole (5):
 

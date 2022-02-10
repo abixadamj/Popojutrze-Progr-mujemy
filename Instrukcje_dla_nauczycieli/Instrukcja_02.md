@@ -157,11 +157,12 @@ Tu wystarczy pokazać film i postępować zgodnie ze wskazówkami. Pamiętajmy, 
 
 7. #### Edytor grafiki: warstwy i dodanie elementu
 
-Tu wystarczy pokazać film i postępować zgodnie ze wskazówkami. ikona bank.png jest zawarta w repozytorium (Uicons z serwisu https://www.flaticon.com/uicons)
+Tu wystarczy pokazać film i postępować zgodnie ze wskazówkami. ikona bank.png jest zawarta w repozytorium (Uicons z serwisu https://www.flaticon.com/uicons) 
+Proszę zwrócić uwagę, że na filmie mówimy o warstwach - ich znaczniki warto wskazać jawnie (po prawej stronie okna GIMP'a).
 
 8. #### Edytor HTML: containers
 
-Tu wystarczy pokazać film i postępować zgodnie ze wskazówkami. Zwracamy uwagę na strukturę `<div parametr=wartość>...</div>`, która określa zasięg:
+Tu wystarczy pokazać film i postępować zgodnie ze wskazówkami. Zwracamy uwagę na strukturę `<div parametr=wartość>...</div>`, która określa zasięg działania parametru:
 
 ```html
 <div class="container-lg">

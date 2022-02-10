@@ -2,9 +2,11 @@ import requests
 
 data_get = requests.get("http://api.aviationstack.com/v1/flights?access_key=34ecfcefeab53aa9cc68ef072516d3d8&flight_status=active&offset=300")
 data_json = data_get.json()
+print(data_json)
 pagination = data_json["pagination"]
 to_get = pagination["total"] // 100
 print(f"We have total {pagination['total']} and {to_get} times 100")
+
 
 for count in range(to_get+1):
     print(f"Reqest for offset = {count*100}")
