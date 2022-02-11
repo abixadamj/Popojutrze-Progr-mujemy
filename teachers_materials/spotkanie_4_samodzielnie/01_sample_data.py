@@ -6,8 +6,11 @@ import json
 params = {
     'format': 'j1',
 }
-api_result = requests.get('https://wttr.in/Varsavia', params)
+city = ("Varsavia", "Piastów", "Biała Rawska", "Rawa Mazowiecka", "London", "Chicago")  # (0, 1, 2, 3, 4, 5)
+https = f"https://wttr.in/{city[0]}"  # zmień indeks dla innego miasta
+api_result = requests.get(https, params)
 api_response = api_result.json()
+print(json.dumps(api_response["nearest_area"][0], indent=2))  # wyświetlamy z wcięciem
 weather = api_response["weather"]
 days = {
     0: {"min_temp": 0, "max_temp": 0, "warning": False},
@@ -23,7 +26,7 @@ for day in days:
         days[day]["warning"] = True
 
 # wyświetlamy docelowy słownik
-print(json.dumps(days, indent=2))
+print(json.dumps(days, indent=2))  # wyświetlamy z wcięciem
 
 for day in days:
     if days[day]["warning"]:

@@ -1,4 +1,5 @@
-# Funkcje i zasięg zmiennych w Python a35
+# Funkcje i zasięg zmiennych w Python
+# https://tinyurl.com/popo-namespace
 # główna przestrzeń nazw: "__main__"
 # przestrzenie nazw funkcji są osobne
 some_value = 12
