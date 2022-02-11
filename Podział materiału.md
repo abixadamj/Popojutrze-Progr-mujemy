@@ -149,27 +149,27 @@ Przed rozpoczęciem zajęć na wszystkich komputerach należy zainstalować **Vi
 
 #### Praca samodzielna (3):
 
-1. Generowanie API_KEY dla wybranego projektu (Aviationstack) - https://aviationstack.com/signup/free a26
-2. Testujemy dostęp do danych API (3 przykłady dla każdego projektu) a27 / a28 / a29
-3. Poznajemy kody odpowiedzi API: poprawnych i błędnych (3 przykłady dla każdego projektu) a30 / a31 /a32
+1. Sprawdzamy dokumentację dla przykładowych API: a26/ a27/ a28
+    1. https://aviationstack.com/documentation
+    2. https://numverify.com/documentation
+    3. https://wttr.in/:help
+2. Generowanie API_KEY dla wybranego projektu (Aviationstack) - https://aviationstack.com/signup/free a29
+3. Poznajemy kody odpowiedzi API: poprawnych i błędnych (3 przykłady dla każdego projektu) a30 / a31 / a32
 4. tworzymy własne repozytorium, pamiętamy o `.gitignore`, `README.md` oraz licencji a33
 
 #### Lekcja w szkole (4):
 
 1. Definiowanie funkcji w Python. a34
 2. Funkcje i zasięg zmiennych w Python. a35
-3. Replikacja projektu z GitHub do PyCharm (open via VCS) i dodanie lokalnego venv (Add interpreter) i w
-   requirements.txt `Install all packages` a36
-4. Dodanie do repozytorium pracy z aplikacją PySimpleGUI i `Commit/Push` a37
-5. Sprawdzamy dokumentację dla przykładowych API: a38/ a39/ a50
-    1. https://aviationstack.com/documentation
-    2. https://numverify.com/documentation
-    3. https://wttr.in/:help
+3. Testujemy dostęp do danych API (3 przykłady dla każdego projektu) a36 / a37 /a38
+4. Replikacja projektu z GitHub do PyCharm (open via VCS) i dodanie lokalnego venv (Add interpreter) i w
+   requirements.txt `Install all packages` a38
+5. Dodanie do repozytorium pracy z aplikacją PySimpleGUI i `Commit/Push` a40
 
 
 #### Praca samodzielna (4):
 
-1. Sprawdzenie działania - skrypt odczytujący i prezentujący wybrane dane a41
+1. Sprawdzenie działania — skrypt odczytujący i prezentujący wybrane dane a41
 2. Wysłanie projektu do serwisu GitHub a42
 3. Przygotowanie dokumentacji i strony w HTML b20
 
@@ -177,7 +177,7 @@ Przed rozpoczęciem zajęć na wszystkich komputerach należy zainstalować **Vi
 
 1. Aktualizowanie wartości dla kluczy słowników a43
 2. Tworzenie słowników i dodawania do nich elementów a44
-3. Weryfikacja przygotowania dokumentacji i strony w HTML b21
+3. Weryfikacja przygotowania dokumentacji i strony w HTML 
 
 #### Praca samodzielna (5):
 

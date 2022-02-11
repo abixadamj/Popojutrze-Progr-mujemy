@@ -1,5 +1,6 @@
 # Funkcje i zasięg zmiennych w Python a35
 # główna przestrzeń nazw: "__main__"
+# przestrzenie nazw funkcji są osobne
 some_value = 12
 some_list = [1, 2]
 
@@ -10,8 +11,8 @@ def function_1():
 
 
 def function_2():
-    some_value = "Other value"  # zmienna rodzaju unmutable
-    some_list = "Other list"  # zmienna rodzaju unmutable, bo przypisanie innej wartości
+    some_value = "Other value"  # zmienna rodzaju immutable
+    some_list = "Other list"  # zmienna rodzaju immutable, bo przypisanie innej wartości
     print(some_value)
     print(some_list)
 

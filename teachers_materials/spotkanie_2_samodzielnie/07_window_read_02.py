@@ -1,5 +1,5 @@
 # wczytywanie z okna window.read()
-# input - wprowadzanie danych
+# input — wprowadzanie danych
 # dodajemy własne przyciski
 
 # wczytujemy niezbędne elementy
@@ -19,7 +19,7 @@ window = sg.Window("Example layout", app_layout, enable_close_attempted_event=Tr
 while True:
     # poniższe wywołanie otwiera okno i wczytuje dane
     event, values = window.read()
-    # inny sposób sprawdzania - tu x nie spowoduje zniknięcia okna
+    # inny sposób sprawdzania — tu x nie spowoduje zniknięcia okna
     if event in (sg.WINDOW_CLOSE_ATTEMPTED_EVENT, "Exit") and sg.popup_yes_no('Do you really want to exit?') == 'Yes':
         print("Break and EXIT")
         break
@@ -34,7 +34,7 @@ while True:
         )
 
     # sprawdzamy wartości zwracane przez okno
-    sg.popup("Evnt is:", event, "Returned dict is:", values)
+    sg.popup("Event is:", event, "Returned dict is:", values)
 
     # sprawdzamy naciśnięte przyciski
     if event == "Print It":

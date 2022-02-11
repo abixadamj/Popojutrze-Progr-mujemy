@@ -7,10 +7,10 @@ import requests
 import PySimpleGUI as sg
 
 
-def get_planes_in_air(desired_city, api_key):
-    returned_text = f"No planes found for: {desired_city}"
+def get_flight_information(flight_number, api_key):
+    returned_text = f"No plane data found for flight: {flight_number}"
     data_get = requests.get(
-        f"http://api.aviationstack.com/v1/flights?access_key={api_key}&flight_status=active&offset=300")
+        f"http://api.aviationstack.com/v1/flights?access_key={api_key}&flight_number={flight_number}")
     data_json = data_get.json()
 
     # sprawdzamy, czy nie pojawia się jakiś błąd
@@ -38,7 +38,7 @@ def get_planes_in_air(desired_city, api_key):
                     flight_number = flight["flight"]["number"]
                     aircraft = flight["aircraft"]["registration"] + " | " + flight["aircraft"]["iata"]
                     pos = f"Latitude: {live['latitude']} Longitude: {live['longitude']} / Altitude: {live['altitude']}."
-                    if arrival == desired_city:
+                    if arrival == flight_number:
                         output_line = f"""Flight {flight_number} / {airline}:
 From: {departure}
 To: {arrival}
@@ -52,14 +52,14 @@ Position: {pos}
 
 # definiujemy wygląd aplikacji
 app_layout = [
-    [sg.Text("Checking planes around")],
+    [sg.Text("Checking flight number")],
     [sg.Text("Please enter API KEY"), sg.Input("api_key")],
-    [sg.Text("Please enter name of city of arrival"), sg.Input("City"), sg.Button("Check flights")],
+    [sg.Text("Please enter flight number"), sg.Input("City"), sg.Button("Check flight")],
     [sg.Text("_" * 100)],
     [sg.Output(size=(100, 15), key="-OUTPUT-")],
     [sg.Button("Clear -OUTPUT-"), sg.Exit()],
 ]
-window = sg.Window("Checking planes in air around our location.", app_layout, enable_close_attempted_event=True)
+window = sg.Window("Checking plane in air.", app_layout, enable_close_attempted_event=True)
 # używamy pętli nieskończonej, która działa aż do słowa kluczowego `break`
 # pamiętajmy o PEP-8, wcięciach i bloku kodu - https://www.python.org/dev/peps/pep-0008/#indentation
 while True:
@@ -71,12 +71,12 @@ while True:
         break
 
     # dodajemy sprawdzenie wciśniętego przycisku
-    if event == "Check flights":
-        # sprawdzamy loty
+    if event == "Check flight":
+        # sprawdzamy lot
         api_key = values[0]
-        desired_city = values[1]
-        planes_in_air = get_planes_in_air(desired_city, api_key)
-        print(planes_in_air)
+        flight_number = values[1]
+        plane_info = get_flight_information(flight_number, api_key)
+        print(plane_info)
 
     # sprawdzamy naciśnięte przyciski
     if event == "Clear -OUTPUT-":
