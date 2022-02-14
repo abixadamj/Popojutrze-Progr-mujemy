@@ -5,12 +5,19 @@
 import sys
 import requests
 import PySimpleGUI as sg
+from time import sleep
 
 
-def get_flight_information(flight_number, api_key):
-    returned_text = f"No plane data found for flight: {flight_number}"
+def get_flight_information(api_key: str):
+    returned_text = "No planes data."
+
+    params = {
+        'access_key': api_key,
+        'flight_status': 'active',
+    }
+
     data_get = requests.get(
-        f"http://api.aviationstack.com/v1/flights?access_key={api_key}&flight_number={flight_number}")
+        f"http://api.aviationstack.com/v1/flights", params)
     data_json = data_get.json()
 
     # sprawdzamy, czy nie pojawia się jakiś błąd
@@ -21,45 +28,37 @@ def get_flight_information(flight_number, api_key):
     if data_get.status_code == 401:
         return data_json["error"]["message"]
 
-    pagination = data_json["pagination"]
-    to_get = pagination["total"] // 100
-    for count in range(to_get + 1):
-        print(f"Reqest for offset = {count * 100}")
-        data_get = requests.get(
-            f"http://api.aviationstack.com/v1/flights?access_key={api_key}&flight_status=active&offset={count * 100}")
-        data = data_get.json()["data"]
-        for flight in data:
-            if flight["live"]:
-                live = flight["live"]
-                if not live["is_ground"]:
-                    departure = flight["departure"]["airport"]
-                    arrival = flight["arrival"]["airport"]
-                    airline = flight["airline"]["name"]
-                    flight_number = flight["flight"]["number"]
-                    aircraft = flight["aircraft"]["registration"] + " | " + flight["aircraft"]["iata"]
-                    pos = f"Latitude: {live['latitude']} Longitude: {live['longitude']} / Altitude: {live['altitude']}."
-                    if arrival == flight_number:
-                        output_line = f"""Flight {flight_number} / {airline}:
-From: {departure}
-To: {arrival}
-Aircraft: {aircraft}
-Position: {pos}
----------------------------------------------------------------------------------------------"""
-                        returned_text += output_line
+    # dane o lotach — w wersji FREE 100 rekordów
+    flights = data_json["data"]
+    if flights:
+        returned_text = "Data for flights: \n"
+        for flight_info in flights:
+            output_line = ""
+            airline = flight_info["airline"]
+            flight = flight_info["flight"]
+            departure = flight_info["departure"]
+            arrival = flight_info["arrival"]
+            live = flight_info["live"]  # dostępne tylko dla części lotów
 
-        return returned_text
+            output_line += f"Flight number {flight['iata']} by {airline['name']} - from {departure['airport']} to {arrival['airport']}\n"
+            if live:
+                output_line += f"On {live['altitude']} meters with {live['speed_horizontal']} km/h.\n"
+
+            output_line += "----------------------------------------------------------------------\n"
+            returned_text += output_line
+
+    return returned_text
 
 
 # definiujemy wygląd aplikacji
 app_layout = [
     [sg.Text("Checking flight number")],
-    [sg.Text("Please enter API KEY"), sg.Input("api_key")],
-    [sg.Text("Please enter flight number"), sg.Input("City"), sg.Button("Check flight")],
+    [sg.Text("Please enter API KEY"), sg.Input("api_key"), sg.Button("Check today's flights")],
     [sg.Text("_" * 100)],
     [sg.Output(size=(100, 15), key="-OUTPUT-")],
     [sg.Button("Clear -OUTPUT-"), sg.Exit()],
 ]
-window = sg.Window("Checking plane in air.", app_layout, enable_close_attempted_event=True)
+window = sg.Window("Checking planes in air.", app_layout, enable_close_attempted_event=True)
 # używamy pętli nieskończonej, która działa aż do słowa kluczowego `break`
 # pamiętajmy o PEP-8, wcięciach i bloku kodu - https://www.python.org/dev/peps/pep-0008/#indentation
 while True:
@@ -71,11 +70,11 @@ while True:
         break
 
     # dodajemy sprawdzenie wciśniętego przycisku
-    if event == "Check flight":
+    if event == "Check today's flights":
         # sprawdzamy lot
+        print("Checking....")
         api_key = values[0]
-        flight_number = values[1]
-        plane_info = get_flight_information(flight_number, api_key)
+        plane_info = get_flight_information(api_key)
         print(plane_info)
 
     # sprawdzamy naciśnięte przyciski

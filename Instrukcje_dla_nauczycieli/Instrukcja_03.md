@@ -12,13 +12,11 @@ Licencja: CC BY-SA 4.0 - https://creativecommons.org/licenses/by-sa/4.0/deed.pl
 
 ## Podstawowe treści omawiane w materiale:
 
-- licencje na oprogramowanie
-
-- PyCharm i prosty projekt programistyczny
-
-- serwis GitHub - współpraca wielu osób nad projektem
-
-- podstawowe różnice w wywoływaniu skryptów Python w różnych systemach operacyjnych
+- PythonConsole w PyCharm
+- format `JSON` a słowniki w Pythonie
+- wykorzystanie pętli `for` do wyświetlania wszystkich elementów słownika
+- struktury list i słowniki jako wartości słowników
+- formaty plików, elementy HTML
 
 ---
 
@@ -37,15 +35,15 @@ Licencja: CC BY-SA 4.0 - https://creativecommons.org/licenses/by-sa/4.0/deed.pl
 1. #### Poznajemy `Python Console` w PyCharm + Wykorzystujemy `requirements.txt` i instalujemy niezbędne elementy: `requests`
    a20
 
-2. #### Wykonujemy request z serwisu https://fastapi.jurkiewicz.tech/ i pokazujemy odczytane dane a21
+2. #### Wykonujemy request z serwisu https://fastapi.jurkiewicz.tech/ i pokazujemy odczytane dane 
 
-3. #### `JSON` i słowniki w Python a22
+3. #### `JSON` i słowniki w Python 
 
-4. #### Użycie pętli `for` dla pokazania elementów słownika z serwisu https://fastapi.jurkiewicz.tech/ a23
+4. #### Użycie pętli `for` dla pokazania elementów słownika z serwisu https://fastapi.jurkiewicz.tech/ 
 
-5. #### Listy jako elementy słowników a24
+5. #### Listy jako elementy słowników 
 
-6. #### Słowniki jako elementy słowników a25
+6. #### Słowniki jako elementy słowników 
 
 7. #### Edytor tekstów: eksport dokumentu do formatu PDF b17
 

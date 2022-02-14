@@ -33,7 +33,7 @@ while True:
         )
 
     # sprawdzamy wartości zwracane przez okno
-    sg.popup("Evnt is:", event, "Returned dict is:", values)
+    sg.popup("Event is:", event, "Returned dict is:", values)
 
     # sprawdzamy naciśnięte przyciski
     if event == "Print It":
