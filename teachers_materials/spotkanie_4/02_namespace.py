@@ -24,7 +24,7 @@ def function_3(param_1, param_2):
 
 
 def function_4():
-    some_list.append(3)  # zmienna rodzaju mutable
+    some_list.append(3)  # zmienna rodzaju mutable, do listy dodajemy element
     print(some_value)
     print(some_list)
 

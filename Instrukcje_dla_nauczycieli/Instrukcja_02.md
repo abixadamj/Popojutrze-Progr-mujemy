@@ -28,26 +28,17 @@ Licencja: CC BY-SA 4.0 - https://creativecommons.org/licenses/by-sa/4.0/deed.pl
 
 ### Czynności przygotowawcze przed lekcją:
 
-1. Sprawdzamy, czy każda osoba ma działające oprogramowanie VirtualBox, dostęp do internetu. Możemy samodzielnie
-   spróbować uruchomić kody, przeanalizować ich działanie, skonfrontować naszą wiedzę z filmami instruktażowymi.
+1. Sprawdzamy, czy każda osoba ma działające oprogramowanie VirtualBox, dostęp do internetu. Możemy samodzielnie spróbować uruchomić kody, przeanalizować ich działanie, skonfrontować naszą wiedzę z filmami instruktażowymi.
 
 ### Faza wstępna:
 
-1. Możemy dopytać się uczniów, czy wykonali zadania przeznaczone do pracy samodzielnej, czy udało im się uruchomić
-   VirtualBox i zaimportować maszynę `OVA`
+1. Możemy dopytać się uczniów, czy wykonali zadania przeznaczone do pracy samodzielnej, czy udało im się uruchomić VirtualBox i zaimportować maszynę `OVA`
 
 ### Faza realizacyjna:
 
 1. #### Podstawowe typy danych w Python, zmienne
 
-W języku Python istnieją zmienne — nie jest to bardzo odkrywcze stwierdzenie. Zmienne zawierają wartości różnego typu, i
-to na podstawie analizy tych wartości interpreter Pythona określa typ zmiennej. Nie deklarujemy typu zmiennej, musimy
-pamiętać, że typ zmiennej zmienia się z jej zawartością. Musimy również pamiętać, że w języku Python rozróżniamy
-wielkość liter: zmienna `linux` to coś innego niż `Linux`, a funkcja `Print()` to nie jest `print()`. To dosyć prosty
-materiał — wystarczy pokazać film i postępować zgodnie ze wskazówkami. Jednak uwaga! Pośrodku filmu ujawnia się błąd! To
-jest specjalne — aby pokazać, w jaki sposób Python komunikuje problemy i błędy w kodzie. W serwisie GitHub pozostawiam
-kod z błędem, który uczniowie muszą samodzielnie poprawić. Wprowadzam tam od razu konwencję F-String, która jest
-obecnie (rok 2021/2022) najpopularniejsza w Pythonie.
+W języku Python istnieją zmienne — nie jest to bardzo odkrywcze stwierdzenie. Zmienne zawierają wartości różnego typu, i to na podstawie analizy tych wartości interpreter Pythona określa typ zmiennej. Nie deklarujemy typu zmiennej, musimy pamiętać, że typ zmiennej zmienia się z jej zawartością. Musimy również pamiętać, że w języku Python rozróżniamy wielkość liter: zmienna `linux` to coś innego niż `Linux`, a funkcja `Print()` to nie jest `print()`. To dosyć prosty materiał — wystarczy pokazać film i postępować zgodnie ze wskazówkami. Jednak uwaga! Pośrodku filmu ujawnia się błąd! To jest specjalne — aby pokazać, w jaki sposób Python komunikuje problemy i błędy w kodzie. W serwisie GitHub pozostawiam kod z błędem, który uczniowie muszą samodzielnie poprawić. Wprowadzam tam od razu konwencję F-String, która jest obecnie (rok 2021/2022) najpopularniejsza w Pythonie.
 
 Przykład krótkiego wywołania F-String (pamiętamy o literze `f` przed znakami cudzysłowów):
 
@@ -91,14 +82,11 @@ wszystkich, tylko te, które będą nam niezbędne:
 Pierwszy sposób jest najogólniejszy — stosujemy go wtedy, kiedy mamy pewność, że chcemy odwołać się do pewnych
 szczególnych elementów (jak np. `sys.path`).
 
-Drugi sposób pozwala nam w łatwy sposób mieć szybki dostęp (nie musimy dużo pisać) do wszystkich funkcji w danym module.
-To dobry sposób, jeśli nie korzystamy z wielu modułów ani nie mają one dużo kodu.
+Drugi sposób pozwala nam w łatwy sposób mieć szybki dostęp (nie musimy dużo pisać) do wszystkich funkcji w danym module. To dobry sposób, jeśli nie korzystamy z wielu modułów ani nie mają one dużo kodu.
 
-Trzeci sposób jest lepszy od drugiego, gdyż wczytujemy tylko te funkcje, które potrzebujemy w naszym programie. Dzięki
-temu unikniemy wczytania dwóch różnych funkcji o tej samej nazwie.
+Trzeci sposób jest lepszy od drugiego, gdyż wczytujemy tylko te funkcje, które potrzebujemy w naszym programie. Dzięki temu unikniemy wczytania dwóch różnych funkcji o tej samej nazwie.
 
-Czwarty sposób stosujemy, kiedy nazwa funkcji jest długa i chcemy sobie zaoszczędzić czasu pisania lub trafiamy na dwie
-różne funkcje z dwóch modułów, lecz o tej samej nazwie.
+Czwarty sposób stosujemy, kiedy nazwa funkcji jest długa i chcemy sobie zaoszczędzić czasu pisania lub trafiamy na dwie różne funkcje z dwóch modułów, lecz o tej samej nazwie.
 
 > *Najczęściej stosujemy zapis trzeci - `from modul import funkcja_a`.*
 
@@ -108,16 +96,14 @@ przystąpieniem do zajęć, a uczniowie niech samodzielnie w domu też to przeć
 
 4. #### Pętla `for` i listy
 
-Pozwala ona wykonywać blok kodu określoną liczbę razy. Python udostępnia dodatkowo dwie instrukcje, które odpowiadają za
-kontrolę działania bloku kodu wewnątrz pętli:
+Pozwala ona wykonywać blok kodu określoną liczbę razy. Python udostępnia dodatkowo dwie instrukcje, które odpowiadają za kontrolę działania bloku kodu wewnątrz pętli:
 
 - `break` – kończy działanie pętli, a Python przechodzi do dalszej części instrukcji – następujących po bloku pętli
 - `continue` – kończy iterację bieżącej pętli, a Python wraca do początku pętli, wyrażenie warunkowe jest ponownie
   sprawdzane, aby określić, czy pętla zostanie wykonana ponownie, czy zakończyć i przejść dalej
 
 - Tutaj na filmach w PyCharm są utworzone 2 pliki, podczas gdy w GitHub jest to jeden plik. To dla przejrzystości
-  filmów. W szkole można wykonać to dowolnie — albo dwa pliki jak na filmie, albo jeden duży jak w GitHub. Pozostawiam
-  to decyzji nauczyciela.
+  filmów. W szkole można wykonać to dowolnie — albo dwa pliki jak na filmie, albo jeden duży jak w GitHub. Pozostawiam to decyzji nauczyciela.
 
 5. #### Instrukcja warunkowa `if ... else ...`
 
@@ -143,12 +129,9 @@ else:
 > 
 > Pamiętamy o blokach kodu — wcięcie 4 spacje! 
 
-Minimalnie musimy podać jeden warunek, a ich maksymalna ilość jest nieograniczona. Warunki są sprawdzane w kolejności, w
-jakiej je zapisujemy. W momencie, kiedy Python „napotka” warunek, który jest prawdziwy, przerywa sprawdzanie. Tu
-pokazujemy film i postępujemy zgodnie ze wskazówkami zawartymi na filmie...
+Minimalnie musimy podać jeden warunek, a ich maksymalna ilość jest nieograniczona. Warunki są sprawdzane w kolejności, w jakiej je zapisujemy. W momencie, kiedy Python „napotka” warunek, który jest prawdziwy, przerywa sprawdzanie. Tu pokazujemy film i postępujemy zgodnie ze wskazówkami zawartymi na filmie...
 
-W drugiej części filmu (**pobieranie nagłówków**) zwracajmy uwagę na odwołania do elementów listy poprzez indeks (zaczynamy liczyć od 0).
-W tym momencie pokazujemy też kolejny typ złożonych danych - `Tupla` to kolekcja bardzo podobna do listy. Główna różnica - tupla nie jest modyfikowalna.
+W drugiej części filmu (**pobieranie nagłówków**) zwracajmy uwagę na odwołania do elementów listy poprzez indeks (zaczynamy liczyć od 0). W tym momencie pokazujemy też kolejny typ złożonych danych - `Tupla` to kolekcja bardzo podobna do listy. Główna różnica - tupla nie jest modyfikowalna.
 
 
 6. #### Edytor tekstów: listy numerowane i nienumerowane
@@ -157,7 +140,7 @@ Tu wystarczy pokazać film i postępować zgodnie ze wskazówkami. Pamiętajmy, 
 
 7. #### Edytor grafiki: warstwy i dodanie elementu
 
-Tu wystarczy pokazać film i postępować zgodnie ze wskazówkami. ikona bank.png jest zawarta w repozytorium (Uicons z serwisu https://www.flaticon.com/uicons) 
+Tu wystarczy pokazać film i postępować zgodnie ze wskazówkami. Ikona bank.png jest zawarta w repozytorium (Uicons z serwisu https://www.flaticon.com/uicons) 
 Proszę zwrócić uwagę, że na filmie mówimy o warstwach - ich znaczniki warto wskazać jawnie (po prawej stronie okna GIMP'a).
 
 8. #### Edytor HTML: containers
@@ -176,18 +159,18 @@ Tu wystarczy pokazać film i postępować zgodnie ze wskazówkami. Zwracamy uwag
    1. Z zakresu programowania: wcięcia `4 spacje i bloki kodu`
    2. Z zakresu HTML: składnię `<div>`
 2. Do obejrzenia i samodzielnej pracy przeznaczone są w tym momencie następujące filmy:
-   1. #### Wyświetlamy informację - 1 (text)
-   2. #### Rozpakowywanie tupli - pythonizm.
+   1. #### Wyświetlamy informację.
+   2. #### Rozpakowywanie tupli — pythonizm.
    3. #### Pętla `while True` - sterowanie programem PySimpleGUI
-   4. #### Dodajemy elementy przycisków - 1 (button)
-   5. #### Dodajemy wyświetlanie obrazków - 1 (Image)
-   6. #### Poznajemy sposoby wprowadzania danych - 1 (input)
-   7. #### Poznajemy sterowanie - 1 (window.read())
-   8. #### PySimpleGui - tworzymy prosty program okienkowy - 1 (layout, listy)
-   9. #### Wyświetlanie większej ilości danych (output)
-   10. #### Edytor teskstów: zrzut zawartości okna aplikacji i dodanie do tekstu
-   11. #### Edytor grafiki: warstwy i dodanie tekstu.
-   12. #### Edytor HTML: różne elementy na stronie (headings, display, obrazy, listy).
+   4. #### Dodajemy elementy przycisków
+   5. #### Dodajemy wyświetlanie obrazków
+   6. #### Poznajemy sposoby wprowadzania danych
+   7. #### Poznajemy sterowanie
+   8. #### PySimpleGui — tworzymy prosty program okienkowy
+   9. #### Wyświetlanie większej ilości danych
+   10. #### Edytor tekstów: zrzut zawartości okna aplikacji i dodanie do tekstu
+   11. #### Edytor grafiki: warstwy i dodanie tekstu
+   12. #### Edytor HTML: różne elementy na stronie (headings, display, obrazy, listy)
 
 > UWAGA!
 >
@@ -210,9 +193,9 @@ Tu wystarczy pokazać film i postępować zgodnie ze wskazówkami. Zwracamy uwag
 
 ## Cele operacyjne (językiem ucznia):
 
-- Poznasz sposoby instalacji oprogramowania w systemie operacyjnym.
+- Poznasz podstawowe typy danych w języku Python.
 
-- Powtórzysz wiedzę o katalogach, plikach.
+- Powtórzysz wiedzę o różnych elementach w edytorach.
 
 ## Metody i techniki nauczania:
 
@@ -241,16 +224,17 @@ Tu wystarczy pokazać film i postępować zgodnie ze wskazówkami. Zwracamy uwag
 ## Materiały pomocnicze:
 
 - Oficjalna dokumentacja techniczna dla języka Python 3 (lub nowszej wersji), dostępna pod
-  adresem: [3.10.2 Documentation](https://docs.python.org/).
+  adresem: https://docs.python.org/.
 - materiały kursu OSE: https://github.com/klubmlodegoprogramisty/python/tree/main/poziom_podstawowy
 - materiały książki: https://github.com/abixadamj/helion-python/tree/main/Rozdzial_1
 
 ## Wskazówki metodyczne:
 
-- Jako ćwiczenie można zadać napisanie programu, który bazując na roku urodzenia obliczy, w którym roku dana osoba
-  będzie mieć 100 lat. To oczywiście bardzo prosty program.
 
-Przykład:
+Przykłady ćwiczeń w pliku `99_excersises.py`. 
+
+- Jako ćwiczenie można zadać napisanie programu, który bazując na roku urodzenia obliczy, w którym roku dana osoba
+  będzie mieć 100 lat. 
 
 ```python
 actual_year = 2022
@@ -265,10 +249,9 @@ print(text_when)
 ```
 
 - Jako ćwiczenie wykorzystujące nowe elementy proponuję: napisz program, który sprawdzi, czy elementem kolekcji jest książka i poda jej tytuł. Mamy dwie kolekcje:
-  1. Lista zawierająca tuple (rodzaj, tytuł) : `[("CD", "Album 1"), ("DVD", "Album 3"), ("Book", "Moby Dick"), ("MP3", "Collection 2")]`
+  1. Lista zawierająca tuple [o niej samej będzie jeszcze] (rodzaj, tytuł) : `[("CD", "Album 1"), ("DVD", "Album 3"), ("Book", "Moby Dick"), ("MP3", "Collection 2")]`
   2. Słownik o strukturze: `{"CD": "Album 1, "MP3": "Collection 2", "DVD": "Album 3", "Book": "Moby Dick"}`
 
-Przykład w pliku `99_excersises.py`:
 
 ```python
 my_list = [("CD", "Album 1"), ("DVD", "Album 3"), ("Book", "Moby Dick (list)"), ("MP3", "Collection 2")]

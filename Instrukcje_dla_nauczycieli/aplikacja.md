@@ -1,3 +1,6 @@
+## Przykładowy kod pełnej aplikacji:
+
+```python
 # Dodanie do repozytorium pracy z aplikacją PySimpleGUI i `Commit/Push` a37
 # uwaga na ilość uruchomień: 100 request ogólnie, później:
 # {'error': {'code': 'usage_limit_reached', 'message': 'Your monthly usage limit has been reached. Please upgrade your Subscription Plan.'}}
@@ -52,10 +55,9 @@ def get_flight_information(api_key: str):
 
 # definiujemy wygląd aplikacji
 app_layout = [
-    [sg.Text("Checking flight number")],
     [sg.Text("Please enter API KEY"), sg.Input("api_key"), sg.Button("Check today's flights")],
     [sg.Text("_" * 100)],
-    [sg.Output(size=(100, 15), key="-OUTPUT-")],
+    [sg.Output(size=(100, 40), key="-OUTPUT-")],
     [sg.Button("Clear -OUTPUT-"), sg.Exit()],
 ]
 window = sg.Window("Checking planes in air.", app_layout, enable_close_attempted_event=True)
@@ -85,3 +87,8 @@ while True:
 window.close()
 print("End of application")
 sys.exit()
+```
+
+Jeśli któraś z grup nie będzie w stanie samodzielnie stworzyć kodu, można popowiedziej jej ten kod. Wynikiem będzie aplikacja, która pozwoli pokazać informacje o samolotach *w powietrzu*. 
+
+![](app_sample.png)

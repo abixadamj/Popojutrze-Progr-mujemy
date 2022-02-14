@@ -8,7 +8,7 @@ Licencja: CC BY-SA 4.0 - https://creativecommons.org/licenses/by-sa/4.0/deed.pl
 
 #### Opis ogólny:
 
-> W trakcie tego spotkania  skupiamy się na przygotowaniu środowiska pracy, a więc na koncie w serwisie GitHub.
+> W trakcie tego spotkania skupiamy się na przygotowaniu środowiska pracy, a więc na koncie w serwisie GitHub.
 > Dodatkowo młodzież pozna różnego rodzaju licencje na materiały i oprogramowanie, oraz co najważniejsze - stworzy swój pierwszy program
 > w Pythonie - zgodnie z zasadą szybkich efektów pracy, aby nie zniechęcić się na początku.
 
@@ -109,15 +109,14 @@ otwartych licencjach, np.: https://github.com/twbs/bootstrap/blob/v5.0.2/LICENSE
 
 ### Faza podsumowująca:
 
-1. Nauczyciel może podsumować wykonane zadanie, uczniowie mogą sprawdzić zawartość katalogu wirtualnego środowiska
-   Python dla swojego projektu.
+1. Nauczyciel może podsumować wykonane zadanie, uczniowie mogą sprawdzić zawartość katalogu wirtualnego środowiska Python dla swojego projektu.
 2. Do obejrzenia i samodzielnej pracy przeznaczone są w tym momencie następujące filmy:
    1. #### VirtualBox w Windows i jak importować maszynę `OVA` - aby pracować niezależnie od szkoły
    2. #### PySimpleGui - dokumentacja, przykłady użycia
-   3. #### Edytor teskstów: nagłówek i stopka
-   4. #### Edytor teskstów: style i spis treści
+   3. #### Edytor tekstów: nagłówek i stopka
+   4. #### Edytor tekstów: style i spis treści
    5. #### Edytor grafiki: zmiana rozmiaru i zapis XCF
-   6. #### Edytor HTML:  różne znaczniki `meta`
+   6. #### Edytor HTML: różne znaczniki `meta`
 
 ----
 
@@ -155,7 +154,7 @@ otwartych licencjach, np.: https://github.com/twbs/bootstrap/blob/v5.0.2/LICENSE
 ## Materiały pomocnicze:
 
 - Oficjalna dokumentacja techniczna dla języka Python 3 (lub nowszej wersji), dostępna pod
-  adresem: [3.10.2 Documentation](https://docs.python.org/).
+  adresem: https://docs.python.org/.
 - Dokumentacja wyboru licencji: https://creativecommons.pl/wybierz-licencje/
 
 ## Wskazówki metodyczne:

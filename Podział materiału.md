@@ -41,13 +41,13 @@
 
 - [ ] rozpisanie filmów (wszystkich 60 sztuk, 44 Python + 1 OVA + 15 doc/graf/html)
 
-#### Realizujemy działania w oparciu o 3 przykładowe projekty:
+#### Realizujemy działania na podstawie 3 przykładowych projektów:
 
 1. Lokalizacje lotów samolotów: https://aviationstack.com
 
 2. Weryfikacja firm dla numerów telefonów: https://numverify.com
 
-3. Alert pogodowy dla 3 dniowej prognozy: https://wttr.in/
+3. Alert pogodowy dla 3-dniowej prognozy: https://wttr.in/
 
 *Dla chętnych na koniec zapakowanie projektu do http://www.pyinstaller.org/*
 
