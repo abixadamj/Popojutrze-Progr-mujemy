@@ -154,7 +154,8 @@ Przed rozpoczęciem zajęć na wszystkich komputerach należy zainstalować **Vi
     2. https://numverify.com/documentation
     3. https://wttr.in/:help
 2. Generowanie API_KEY dla wybranego projektu (Aviationstack) - https://aviationstack.com/signup/free a29
-3. Poznajemy kody odpowiedzi API: poprawnych i błędnych (3 przykłady dla każdego projektu) a30 / a31 / a32
+2. Generowanie API_KEY dla wybranego projektu (Numerify) - https://numverify.com/documentation a30
+3. Poznajemy kody odpowiedzi API: poprawnych i błędnych  a31 / a32
 4. tworzymy własne repozytorium, pamiętamy o `.gitignore`, `README.md` oraz licencji a33
 
 #### Lekcja w szkole (4):
@@ -163,7 +164,7 @@ Przed rozpoczęciem zajęć na wszystkich komputerach należy zainstalować **Vi
 2. Funkcje i zasięg zmiennych w Python. a35
 3. Testujemy dostęp do danych API (3 przykłady dla każdego projektu) a36 / a37 /a38
 4. Replikacja projektu z GitHub do PyCharm (open via VCS) i dodanie lokalnego venv (Add interpreter) i w
-   requirements.txt `Install all packages` a38
+   requirements.txt `Install all packages` a39
 5. Dodanie do repozytorium pracy z aplikacją PySimpleGUI i `Commit/Push` a40
 
 
@@ -171,7 +172,7 @@ Przed rozpoczęciem zajęć na wszystkich komputerach należy zainstalować **Vi
 
 1. Sprawdzenie działania — skrypt odczytujący i prezentujący wybrane dane a41
 2. Wysłanie projektu do serwisu GitHub a42
-3. Przygotowanie dokumentacji i strony w HTML b20
+3. Przygotowanie dokumentacji i strony w HTML 
 
 #### Lekcja w szkole (5):
 

@@ -1,6 +1,6 @@
 # Scenariusz/instrukcja lekcji dla nauczycieli
 
-Temat: Spotkanie - praca z kluczami i wartościami słowników
+Temat: Spotkanie 5 - praca z kluczami i wartościami słowników
 
 Autor: **Adam Jurkiewicz**
 

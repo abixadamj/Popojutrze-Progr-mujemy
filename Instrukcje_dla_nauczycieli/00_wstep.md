@@ -1,8 +1,7 @@
 # Wstęp instrukcji dla nauczycieli.
 
-> Ten wstęp opisuje najważniejsze elementy związane z naszą propozycją prowadzenia warsztatów. Zakładamy pewien podział materiałów,
-> ale każdy nauczyciel może wg własnego uznania podzielić te materiały inaczej, jeśli uzna to za stosowne w ramach swoich grup.
->
+> Ten wstęp opisuje najważniejsze elementy związane z naszą propozycją prowadzenia warsztatów. Zakładamy pewien podział materiałów, ale każdy nauczyciel może wg własnego uznania podzielić te materiały inaczej, jeśli uzna to za stosowne w ramach swoich grup.
+> 
 
 ---
 
@@ -31,8 +30,7 @@ Całość materiałów przygotowaliśmy z myślą o standardowym podziale:
 
 #### Informacje dla uczniów
 
-Jeśli uczniowie potrzebują poznać lub ugruntować podstawową wiedzę o języku Python, proponujemy aby skorzystali ze szkoleń 
-dostępnych w protalu OSE za darmo: 
+Jeśli uczniowie potrzebują poznać lub ugruntować podstawową wiedzę o języku Python, proponujemy aby skorzystali ze szkoleń dostępnych w protalu OSE za darmo: 
 - Podstawowy: https://it-szkola.edu.pl/kkurs,kurs,216 wraz z kodami w serwisie GitHub: https://github.com/klubmlodegoprogramisty/python/tree/main/poziom_podstawowy
 - Średnio zaawansowany: https://it-szkola.edu.pl/kkurs,kurs,217 wraz z kodami w serwisie GitHub: https://github.com/klubmlodegoprogramisty/python/tree/main/poziom_sredniozaawansowany
 
