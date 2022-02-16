@@ -1,6 +1,6 @@
-# Scenariusz/instrukcja lekcji dla nauczycieli
+# Instrukcja lekcji dla nauczycieli
 
-Temat: Spotkanie 1 - start, przygotowanie środowiska
+Temat: Lekcja 1 - start, przygotowanie środowiska
 
 Autor: **Adam Jurkiewicz**
 
@@ -8,9 +8,7 @@ Licencja: CC BY-SA 4.0 - https://creativecommons.org/licenses/by-sa/4.0/deed.pl
 
 #### Opis ogólny:
 
-> W trakcie tego spotkania skupiamy się na przygotowaniu środowiska pracy, a więc na koncie w serwisie GitHub.
-> Dodatkowo młodzież pozna różnego rodzaju licencje na materiały i oprogramowanie, oraz co najważniejsze - stworzy swój pierwszy program
-> w Pythonie - zgodnie z zasadą szybkich efektów pracy, aby nie zniechęcić się na początku.
+> W trakcie tego spotkania skupiamy się na przygotowaniu środowiska pracy, a więc `OVA` w Virtualbox, `venv` w PyCharm. Dodatkowo młodzież pozna różnego rodzaju licencje na materiały i oprogramowanie, oraz co najważniejsze - stworzy swój pierwszy program w Pythonie - zgodnie z zasadą szybkich efektów pracy, aby nie zniechęcić się na początku.
 
 ---
 
@@ -38,8 +36,7 @@ Licencja: CC BY-SA 4.0 - https://creativecommons.org/licenses/by-sa/4.0/deed.pl
 
 ### Faza wstępna:
 
-1. Rozpoznanie wiedzy uczniów. Warto podyskutować chwilę o ich znajomości serwisu GitHub i o tym, jak wykorzystują je
-   firmy do wspólnej pracy programistów.
+1. Rozpoznanie wiedzy uczniów. Warto podyskutować chwilę o ich znajomości serwisu GitHub i o tym, jak wykorzystują je firmy do wspólnej pracy programistów.
 
 ### Faza realizacyjna:
 

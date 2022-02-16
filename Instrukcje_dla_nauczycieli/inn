@@ -1,0 +1,2 @@
+#!/bin/bash
+pandoc -s -f markdown -t icml -o $1.icml $1.md

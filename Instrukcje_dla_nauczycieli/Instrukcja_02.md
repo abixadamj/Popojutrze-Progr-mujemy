@@ -1,6 +1,6 @@
 # Scenariusz/instrukcja lekcji dla nauczycieli
 
-Temat: Spotkanie 2 - podstawowe typy danych i konstrukcje programistyczne w Python
+Temat: Lekcja 2 - podstawowe typy danych i konstrukcje programistyczne w Python
 
 Autor: **Adam Jurkiewicz**
 

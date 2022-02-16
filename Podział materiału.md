@@ -80,7 +80,6 @@ Przed rozpoczęciem zajęć na wszystkich komputerach należy zainstalować **Vi
    * Praca samodzielna - końcowe tworzenie dokumentacji
 7. Lekcja w szkole - podsumowanie projektów, wybór najlepszego projektu, post-testy itp.
 
-
 *Pamiętamy, aby po każdej lekcji w szkole lub pracy samodzielnej uczestnicy zaktualizowali swoje repozytoria poprzez `Commit/Push`*
 
 ### Podział filmów - przygotowanie do utworzenia scenariuszy
@@ -172,13 +171,11 @@ Przed rozpoczęciem zajęć na wszystkich komputerach należy zainstalować **Vi
 
 1. Sprawdzenie działania — skrypt odczytujący i prezentujący wybrane dane a41
 2. Wysłanie projektu do serwisu GitHub a42
-3. Przygotowanie dokumentacji i strony w HTML 
 
 #### Lekcja w szkole (5):
 
 1. Aktualizowanie wartości dla kluczy słowników a43
 2. Tworzenie słowników i dodawania do nich elementów a44
-3. Weryfikacja przygotowania dokumentacji i strony w HTML 
 
 #### Praca samodzielna (5):
 

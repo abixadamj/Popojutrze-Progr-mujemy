@@ -158,6 +158,11 @@
           <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
         </Properties>
       </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/NumList &gt; first &gt; Paragraph" Name="NumList &gt; first &gt; Paragraph" NumberingExpression="^#.^t" NumberingLevel="1" BulletsAndNumberingListType="NumberedList" LeftIndent="0">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
       <ParagraphStyle Self="ParagraphStyle/NumList &gt; first &gt; beginsWith-3 &gt; Header4" Name="NumList &gt; first &gt; beginsWith-3 &gt; Header4" NumberingExpression="^#.^t" NumberingLevel="1" BulletsAndNumberingListType="NumberedList" LeftIndent="0" PointSize="18">
         <Properties>
           <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
@@ -190,13 +195,13 @@
 <!-- body needs to be non-indented, otherwise code blocks are indented too far -->
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header1">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Scenariusz/instrukcja lekcji dla nauczycieli</Content>
+    <Content>Instrukcja lekcji dla nauczycieli</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Temat: Spotkanie 3 - requests, API, słowniki i JSON</Content>
+    <Content>Temat: Lekcja 3 - requests, API, słowniki i JSON</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -221,9 +226,9 @@
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Blockquote &gt; Paragraph">
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>W trakcie tego spotkania poznajemy pierwszy sposób wykorzystania danych z zewnętrznego API (serwisu podającego dane). Zapoznamy się ze słownikiem i formatem JSON. —</Content>
+    <Content>&gt;W trakcie tego spotkania poznajemy pierwszy sposób wykorzystania danych z zewnętrznego API (serwisu podającego dane). Zapoznamy się ze słownikiem i formatem JSON.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -514,7 +519,7 @@ print(https_request.json())</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList &gt; first" NumberingContinue="false">
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList &gt; first &gt; Paragraph" NumberingContinue="false">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
     <Content>Nauczyciel może podsumować wykonane zadanie, uczniowie mogą sprawdzić zawartość katalogu wirtualnego środowiska Python dla swojego projektu.</Content>
   </CharacterStyleRange>
@@ -558,7 +563,13 @@ print(https_request.json())</Content>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList &gt; Header4">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Poznajemy kody odpowiedzi API: poprawnych i błędnych (3 przykłady dla każdego projektu)</Content>
+    <Content>Generowanie API_KEY dla wybranego projektu (Numerify) - https://numverify.com/documentation</Content>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/NumList &gt; Header4">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content>Poznajemy kody odpowiedzi API: poprawnych i błędnych</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />

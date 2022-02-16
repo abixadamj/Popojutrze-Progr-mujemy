@@ -1,14 +1,13 @@
-# Scenariusz/instrukcja lekcji dla nauczycieli
+# Instrukcja lekcji dla nauczycieli
 
-Temat: Spotkanie 3 - requests, API, słowniki i JSON 
+Temat: Lekcja 3 - requests, API, słowniki i JSON 
 
 Autor: **Adam Jurkiewicz**
 
 Licencja: CC BY-SA 4.0 - https://creativecommons.org/licenses/by-sa/4.0/deed.pl
 
 #### Opis ogólny:
->W trakcie tego spotkania poznajemy pierwszy sposób wykorzystania danych z zewnętrznego API (serwisu podającego dane).
-> Zapoznamy się ze słownikiem i formatem JSON.
+>W trakcie tego spotkania poznajemy pierwszy sposób wykorzystania danych z zewnętrznego API (serwisu podającego dane). Zapoznamy się ze słownikiem i formatem JSON.
 ---
 
 ## Podstawowe treści omawiane w materiale:
@@ -85,13 +84,19 @@ Na koniec lekcji tworzą konta w serwisie GitHub (https://github.com/), a osoba 
 ### Faza podsumowująca:
 
 1. Nauczyciel może podsumować wykonane zadanie, uczniowie mogą sprawdzić zawartość katalogu wirtualnego środowiska Python dla swojego projektu.
+
 2. Do obejrzenia i samodzielnej pracy przeznaczone są w tym momencie następujące filmy:
    1. #### Sprawdzamy dokumentację dla przykładowych API:
     1. #### https://aviationstack.com/documentation
     2. #### https://numverify.com/documentation
     3. #### https://wttr.in/:help
-2. #### Generowanie API_KEY dla wybranego projektu (Aviationstack) - https://aviationstack.com/signup/free 
-3. #### Poznajemy kody odpowiedzi API: poprawnych i błędnych (3 przykłady dla każdego projektu) 
+   
+3. #### Generowanie API_KEY dla wybranego projektu (Aviationstack) - https://aviationstack.com/signup/free 
+
+4. #### Generowanie API_KEY dla wybranego projektu (Numerify) - https://numverify.com/documentation 
+
+5. #### Poznajemy kody odpowiedzi API: poprawnych i błędnych 
+
 4. #### Tworzymy własne repozytorium, pamiętamy o `.gitignore`, `README.md` oraz licencji 
 
 

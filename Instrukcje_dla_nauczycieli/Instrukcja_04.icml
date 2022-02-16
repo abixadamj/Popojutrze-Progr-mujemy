@@ -227,13 +227,13 @@
 <!-- body needs to be non-indented, otherwise code blocks are indented too far -->
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header1">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Scenariusz/instrukcja lekcji dla nauczycieli</Content>
+    <Content>Instrukcja lekcji dla nauczycieli</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Temat: Spotkanie 4 - funkcje, różne interfejsy API, </Content>
+    <Content>Temat: Lekcja 4 - funkcje, różne interfejsy API, </Content>
   </CharacterStyleRange>
   <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Code">
     <Content>Commit/Push</Content>

@@ -1,6 +1,6 @@
-# Scenariusz/instrukcja lekcji dla nauczycieli
+# Instrukcja lekcji dla nauczycieli
 
-Temat: Spotkanie 4 - funkcje, różne interfejsy API, `Commit/Push` do repozytorium
+Temat: Lekcja 4 - funkcje, różne interfejsy API, `Commit/Push` do repozytorium
 
 Autor: **Adam Jurkiewicz**
 

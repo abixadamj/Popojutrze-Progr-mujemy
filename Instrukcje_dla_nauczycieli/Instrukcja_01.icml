@@ -199,13 +199,13 @@
 <!-- body needs to be non-indented, otherwise code blocks are indented too far -->
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header1">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Scenariusz/instrukcja lekcji dla nauczycieli</Content>
+    <Content>Instrukcja lekcji dla nauczycieli</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>Temat: Spotkanie 1 - start, przygotowanie środowiska</Content>
+    <Content>Temat: Lekcja 1 - start, przygotowanie środowiska</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
@@ -232,7 +232,19 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Blockquote &gt; Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>W trakcie tego spotkania skupiamy się na przygotowaniu środowiska pracy, a więc na koncie w serwisie GitHub. Dodatkowo młodzież pozna różnego rodzaju licencje na materiały i oprogramowanie, oraz co najważniejsze - stworzy swój pierwszy program w Pythonie - zgodnie z zasadą szybkich efektów pracy, aby nie zniechęcić się na początku.</Content>
+    <Content>W trakcie tego spotkania skupiamy się na przygotowaniu środowiska pracy, a więc </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Code">
+    <Content>OVA</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> w Virtualbox, </Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Code">
+    <Content>venv</Content>
+  </CharacterStyleRange>
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Content> w PyCharm. Dodatkowo młodzież pozna różnego rodzaju licencje na materiały i oprogramowanie, oraz co najważniejsze - stworzy swój pierwszy program w Pythonie - zgodnie z zasadą szybkich efektów pracy, aby nie zniechęcić się na początku.</Content>
   </CharacterStyleRange>
 </ParagraphStyleRange>
 <Br />
