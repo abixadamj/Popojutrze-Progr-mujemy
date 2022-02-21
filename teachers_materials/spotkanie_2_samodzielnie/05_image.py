@@ -4,5 +4,13 @@
 # wczytujemy niezbędne elementy
 import PySimpleGUI as sg
 
-sg.popup("Some text", "other text", image="smartphone.png")
+sg.popup(image="smartphone.png", title="First image")
 
+# inne wywołanie aplikacji z obrazkami
+app_layout = [
+    [sg.Image(filename="smartphone.png")],
+    [sg.Text("------------------------------------------")],
+    [sg.Button("", image_filename="boarding-pass.png", tooltip="Test our functions!")],
+]
+window = sg.Window("Layout with image", app_layout)
+window.read()

@@ -130,7 +130,7 @@ Przed rozpoczęciem zajęć na wszystkich komputerach należy zainstalować **Vi
 9. Wyświetlanie większej ilości danych (output) a19
 10. Edytor teskstów: zrzut zawartości okna aplikacji i dodanie do tekstu b14
 11. Edytor grafiki: warstwy i dodanie tekstu. b15
-12. Edytor HTML: różne elementy na stronie (headings, display, obrazy, listy). b16
+12. Edytor HTML: różne elementy na stronie (navbar, images, listy). b16
 
 
 #### Lekcja w szkole (3):
@@ -161,7 +161,9 @@ Przed rozpoczęciem zajęć na wszystkich komputerach należy zainstalować **Vi
 
 1. Definiowanie funkcji w Python. a34
 2. Funkcje i zasięg zmiennych w Python. a35
-3. Testujemy dostęp do danych API (3 przykłady dla każdego projektu) a36 / a37 /a38
+3. Testujemy dostęp do danych API (aviationstack) a36 
+3. Testujemy dostęp do danych API (numverify) a37 
+3. Testujemy dostęp do danych API (wttr.in) a38
 4. Replikacja projektu z GitHub do PyCharm (open via VCS) i dodanie lokalnego venv (Add interpreter) i w
    requirements.txt `Install all packages` a39
 5. Dodanie do repozytorium pracy z aplikacją PySimpleGUI i `Commit/Push` a40
