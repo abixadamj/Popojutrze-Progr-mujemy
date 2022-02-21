@@ -119,18 +119,18 @@ Przed rozpoczęciem zajęć na wszystkich komputerach należy zainstalować **Vi
 
 #### Praca samodzielna (2):
 
-1. Wyświetlamy informację - 1 (text) a11
+1. Wyświetlamy informację. a11
 2. Rozpakowywanie tupli - pythonizm. a12
-3. Pętla `while True` - sterowanie programem PySimpleGUI a13
-4. Dodajemy elementy przycisków - 1 (button) a14
-5. Dodajemy wyświetlanie obrazków - 1 (Image) a15
-6. Poznajemy sposoby wprowadzania danych - 1 (input) a16
-7. Poznajemy sterowanie - 1 (window.read()) a17
+3. Pętla `while True` - sterowanie programem PySimpleGUI. a13
+4. Dodajemy elementy przycisków. a14
+5. Dodajemy wyświetlanie obrazków. a15
+6. Sposoby wprowadzania danych. a16
+7. Poznajemy sterowanie. a17
 8. PySimpleGui - tworzymy prosty program okienkowy - 1 (layout, listy) a18
 9. Wyświetlanie większej ilości danych (output) a19
 10. Edytor teskstów: zrzut zawartości okna aplikacji i dodanie do tekstu b14
 11. Edytor grafiki: warstwy i dodanie tekstu. b15
-12. Edytor HTML: różne elementy na stronie (navbar, images, listy). b16
+12. Edytor HTML: różne elementy na stronie (display, images, listy). b16
 
 
 #### Lekcja w szkole (3):
@@ -144,7 +144,7 @@ Przed rozpoczęciem zajęć na wszystkich komputerach należy zainstalować **Vi
 6. Słowniki jako elementy słowników a25
 7. Edytor tekstów: eksport dokumentu do formatu PDF b17
 8. Edytor grafiki: eksport obrazu jako PNG b18
-9. Edytor HTML: różne elementy na stronie (address, listy, user input, sample output). b19
+9. Edytor HTML: różne elementy na stronie (navbar, listy, image ). b19
 
 #### Praca samodzielna (3):
 

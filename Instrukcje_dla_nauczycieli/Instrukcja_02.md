@@ -161,16 +161,16 @@ Tu wystarczy pokazać film i postępować zgodnie ze wskazówkami. Zwracamy uwag
 2. Do obejrzenia i samodzielnej pracy przeznaczone są w tym momencie następujące filmy:
    1. #### Wyświetlamy informację.
    2. #### Rozpakowywanie tupli — pythonizm.
-   3. #### Pętla `while True` - sterowanie programem PySimpleGUI
-   4. #### Dodajemy elementy przycisków
-   5. #### Dodajemy wyświetlanie obrazków
-   6. #### Poznajemy sposoby wprowadzania danych
-   7. #### Poznajemy sterowanie
-   8. #### PySimpleGui — tworzymy prosty program okienkowy
-   9. #### Wyświetlanie większej ilości danych
-   10. #### Edytor tekstów: zrzut zawartości okna aplikacji i dodanie do tekstu
-   11. #### Edytor grafiki: warstwy i dodanie tekstu
-   12. #### Edytor HTML: różne elementy na stronie (headings, display, obrazy, listy)
+   3. #### Pętla `while True` - sterowanie programem PySimpleGUI.
+   4. #### Dodajemy elementy przycisków.
+   5. #### Dodajemy wyświetlanie obrazków.
+   6. #### Poznajemy sposoby wprowadzania danych.
+   7. #### Poznajemy sterowanie.
+   8. #### PySimpleGui — tworzymy prosty program okienkowy.
+   9. #### Wyświetlanie większej ilości danych.
+   10. #### Edytor tekstów: zrzut zawartości okna aplikacji i dodanie do tekstu.
+   11. #### Edytor grafiki: warstwy i dodanie tekstu.
+   12. #### Edytor HTML: różne elementy na stronie (display, images, lists).
 
 > UWAGA!
 >
