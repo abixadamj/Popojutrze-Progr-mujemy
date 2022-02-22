@@ -137,14 +137,14 @@ Przed rozpoczęciem zajęć na wszystkich komputerach należy zainstalować **Vi
 
 1. Poznajemy `Python Console` w PyCharm + Wykorzystujemy `requirements.txt` i instalujemy niezbędne elementy: `requests`
    a20
-2. Wykonujemy request z serwisu https://fastapi.jurkiewicz.tech/ i pokazujemy odczytane dane a21
+2. Wykonujemy `request.get()` - z serwisu https://fastapi.jurkiewicz.tech/ pokazujemy odczytane dane a21
 3. `JSON` i słowniki w Python a22
 4. Użycie pętli `for` dla pokazania elementów słownika z serwisu https://fastapi.jurkiewicz.tech/ a23
 5. Listy jako elementy słowników a24
 6. Słowniki jako elementy słowników a25
-7. Edytor tekstów: eksport dokumentu do formatu PDF b17
-8. Edytor grafiki: eksport obrazu jako PNG b18
-9. Edytor HTML: różne elementy na stronie (navbar, listy, image ). b19
+7. Edytor grafiki: eksport obrazu jako PNG b17
+7. Edytor tekstów: eksport dokumentu do formatu PDF b18
+9. Edytor HTML: różne elementy na stronie (navbar, listy, image). b19
 
 #### Praca samodzielna (3):
 

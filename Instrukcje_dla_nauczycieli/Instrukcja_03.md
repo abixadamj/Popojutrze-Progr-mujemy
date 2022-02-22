@@ -37,7 +37,7 @@ Licencja: CC BY-SA 4.0 - https://creativecommons.org/licenses/by-sa/4.0/deed.pl
 1. #### Poznajemy `Python Console` w PyCharm + Wykorzystujemy `requirements.txt` i instalujemy niezbędne elementy: `requests`
 Tu wystarczy pokazać film i postępować zgodnie ze wskazówkami.
 
-2. #### Wykonujemy request z serwisu https://fastapi.jurkiewicz.tech/ i pokazujemy odczytane dane 
+2. #### Wykonujemy `request.get()` - z serwisu https://fastapi.jurkiewicz.tech/ pokazujemy odczytane dane
 Tu wystarczy pokazać film i postępować zgodnie ze wskazówkami.
 Możemy zwrócić uwagę na złożoność obiektu zwracanego funckcją `get`:
 
@@ -46,7 +46,10 @@ import requests
 # wykonujemy połączenie typu GET - analogicznie jak przeglądarka WWW
 https_request = requests.get("https://fastapi.jurkiewicz.tech/")
 
-# wyświetlamy zawartość
+# oglądamy elementy obiektu
+print(dir(https_request))
+
+# wyświetlamy zawartość właściwości `text` całego obiektu
 print(https_request.text)
 
 # pewien sposób stworzenia obiektu JSON
@@ -67,13 +70,13 @@ Tu wystarczy pokazać film i postępować zgodnie ze wskazówkami.
 6. #### Słowniki jako elementy słowników
 Tu wystarczy pokazać film i postępować zgodnie ze wskazówkami.
 
-8. #### Edytor tekstów: eksport dokumentu do formatu PDF
+8. #### Edytor grafiki: eksport obrazu jako PNG
 Tu wystarczy pokazać film i postępować zgodnie ze wskazówkami.
 
-9. #### Edytor grafiki: eksport obrazu jako PNG
+9. #### Edytor tekstów: eksport dokumentu do formatu PDF
 Tu wystarczy pokazać film i postępować zgodnie ze wskazówkami.
 
-10. #### Edytor HTML: różne elementy na stronie (address, listy, user input, sample output)
+10. #### Edytor HTML: różne elementy na stronie (navbar, listy, image).
 Tu wystarczy pokazać film i postępować zgodnie ze wskazówkami.
 
 
