@@ -85,13 +85,20 @@ Licencja: CC BY-SA 4.0 - https://creativecommons.org/licenses/by-sa/4.0/deed.pl
 
    
 
-3. #### Testujemy dostęp do danych API (3 przykłady dla każdego projektu) 
-Tu wystarczy pokazać film i postępować zgodnie ze wskazówkami. Jednak zależy zwrócić uwagę na zmienną `api_key`, która zawiera przykładowy klucz dostępu - na 99,999% będzie on nieaktywny w momencie testowania, więc uzniowie muszą użyć swoich kluczy, które generują samodzielnie w pracy własnej.
+3. #### Testujemy dostęp do danych API (aviationstack) 
+Tu wystarczy pokazać film i postępować zgodnie ze wskazówkami. Jednak zależy zwrócić uwagę na zmienną `api_key`, która zawiera przykładowy klucz dostępu - na 99,999% będzie on nieaktywny w momencie testowania, więc uczniowie muszą użyć swoich kluczy, które generują samodzielnie w pracy własnej.
 
-4. #### Replikacja projektu z GitHub do PyCharm (open via VCS) i dodanie lokalnego venv (Add interpreter) i w   requirements.txt `Install all packages` a38
+4. #### Testujemy dostęp do danych API (aviationstack)
+Tu wystarczy pokazać film i postępować zgodnie ze wskazówkami. Jednak zależy zwrócić uwagę na zmienną `api_key`, która zawiera przykładowy klucz dostępu - na 99,999% będzie on nieaktywny w momencie testowania, więc uczniowie muszą użyć swoich kluczy, które generują samodzielnie w pracy własnej.
+
+5. ####  Testujemy dostęp do danych API (wttr.in)
+Tu wystarczy pokazać film i postępować zgodnie ze wskazówkami. 
+
+
+6. #### Replikacja projektu z GitHub do PyCharm (open via VCS) i dodanie lokalnego venv (Add interpreter) i w   requirements.txt `Install all packages` a38
 Tu wystarczy pokazać film i postępować zgodnie ze wskazówkami.
 
-5. Dodanie do repozytorium pracy z aplikacją PySimpleGUI i `Commit/Push` a40
+7. #### Dodanie do repozytorium pracy z aplikacją PySimpleGUI i `Commit/Push` a40
 Tu wystarczy pokazać film i postępować zgodnie ze wskazówkami.
 
 Na koniec lekcji tworzą konta w serwisie GitHub (https://github.com/), a osoba odpowiedzialna za programowanie tworzy repozytorium projektu i udziela innym dostępu do tego repozytorium *tu się zmieni zdjęcie.*.
@@ -109,12 +116,10 @@ Na koniec lekcji tworzą konta w serwisie GitHub (https://github.com/), a osoba 
    
    2. #### Wysłanie projektu do serwisu GitHub
    
-   3. #### Przygotowanie dokumentacji i strony w HTML
-   
 
 
 > ----
->Warto zaznaczyć, że to przedostatnia dawka teorii - w tym momencie już powinni mieć zręby aplikacji gotowe.
+> Warto zaznaczyć, że to przedostatnia dawka teorii - w tym momencie już powinni mieć zręby aplikacji gotowe.
 
 ----
 
@@ -134,7 +139,6 @@ Na koniec lekcji tworzą konta w serwisie GitHub (https://github.com/), a osoba 
 - poznasz format `JSON` oraz słowniki w Pythonie
 - wykorzystasz pętlę `for` do wyświetlania wszystkich elementów słownika
 - zaznajomisz się ze strukturą list i słowników jako wartości słowników
-- zobaczysz formaty plików, elementy HTML
 
 
 ## Metody i techniki nauczania:

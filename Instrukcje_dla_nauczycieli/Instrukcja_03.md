@@ -90,17 +90,20 @@ Na koniec lekcji tworzą konta w serwisie GitHub (https://github.com/), a osoba 
 
 2. Do obejrzenia i samodzielnej pracy przeznaczone są w tym momencie następujące filmy:
    1. #### Sprawdzamy dokumentację dla przykładowych API:
-    1. #### https://aviationstack.com/documentation
-    2. #### https://numverify.com/documentation
-    3. #### https://wttr.in/:help
    
-3. #### Generowanie API_KEY dla wybranego projektu (Aviationstack) - https://aviationstack.com/signup/free 
-
-4. #### Generowanie API_KEY dla wybranego projektu (Numerify) - https://numverify.com/documentation 
-
-5. #### Poznajemy kody odpowiedzi API: poprawnych i błędnych 
-
-4. #### Tworzymy własne repozytorium, pamiętamy o `.gitignore`, `README.md` oraz licencji 
+      1. #### https://aviationstack.com/documentation
+      2. #### https://numverify.com/documentation
+      3. #### https://wttr.in/:help
+   2. #### Generowanie API_KEY dla wybranego projektu (Aviationstack) - https://aviationstack.com/signup/free 
+   
+   3. #### Generowanie API_KEY dla wybranego projektu (Numerify) - https://numverify.com/documentation 
+   
+   4. #### Poznajemy kody odpowiedzi API: poprawnych i błędnych (Aviationstack)
+   
+   5. #### Poznajemy kody odpowiedzi API: poprawnych i błędnych (Numerify)
+   
+   6. #### Tworzymy własne repozytorium, pamiętamy o `.gitignore`, `README.md` oraz licencji 
+   
 
 
 > UWAGA!
