@@ -3,7 +3,7 @@
 import PySimpleGUI as sg
 
 # proste okno z informacją i zdefiniowanym tytułem
-sg.popup("Hej - witamy w zespole w projekcie Progr@mujemy!", title="Progr@mujemy")
+sg.popup("Hej - witamy w zespole w projekcie Progr@muj w zespole!", title="Progr@muj w zespole")
 
 # okno z dodatkowymi parametrami - zwróćmy uwagę na dodatkowe parametry
 sg.popup(
